@@ -1,10 +1,19 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Page Title -->    
+        <!-- Meta Description -->
+        <meta name="description" content="Blue One Page Creative HTML5 Template">
+        <meta name="keywords" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
+        <meta name="author" content="Muhammad Morshed">
+        <!-- Mobile Specific Meta -->
+
+
 
         <title>Welcome</title>
 
@@ -81,18 +90,68 @@
                 </nav>
             </div>
         </header>
-
-
 </head>
-<body style="background-color:green" id="body">
 <!--
 <div id="preloader">
             <img src="img/preloader.gif" alt="Preloader">
         </div>
         -->
-
-  <p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals</p>      
-<h1>hello</h1>
-
-    </body>
+        <div style="padding-top:200px; color:#fff">         
+        <section id="slider">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            
+                <!-- Indicators bullet -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                </ol>
+                <!-- End Indicators bullet -->              
+                
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    
+                    <!-- single slide -->
+                    <div class="item active body" style="background-image: url(images/banner.jpg);">
+                        <div class="carousel-caption">
+                            <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Brandi</span>!</h2>
+                            <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/creative</span> one page template.</h3>
+                            <p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals</p>
+                            
+                            <ul class="social-links text-center">
+                                <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
+                                <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+                                <li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>      
+        <section id="slider">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            
+                <!-- Indicators bullet -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                </ol>
+                <!-- End Indicators bullet -->              
+                
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    
+                    <!-- single slide -->
+                    <div class="item active" style="background-image: url(img/banner.jpg);">
+                        <div class="carousel-caption">
+                            <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Brandi</span>!</h2>
+                            <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/creative</span> one page template.</h3>
+                            <p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals</p>
+                            
+                            <ul class="social-links text-center">
+                                <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
+                                <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+                                <li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+        </body>
 </html>

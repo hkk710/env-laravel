@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,87 +6,93 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Welcome</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+        <link rel="icon" href="{{asset('favicon.ico')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/font-awesome.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/main.css')}}">
 
         <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
+        <link href="/css/app.css" rel="stylesheet">
 
-            .full-height {
-                height: 100vh;
-            }
+        <!-- Scripts -->
+        <script>
+            window.Laravel = <?php echo json_encode([
+                'csrfToken' => csrf_token(),
+            ]); ?>
+        </script>
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
 
-            .position-ref {
-                position: relative;
-            }
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+        <!-- CSS
+        ================================================== -->
+        <!-- Fontawesome Icon font -->
+        <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
+        <!-- Twitter Bootstrap css -->
+        <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+        <!-- jquery.fancybox  -->
+        <link rel="stylesheet" href="{{asset('css/jquery.fancybox.css')}}">
+        <!-- animate -->
+        <link rel="stylesheet" href="{{asset('css/animate.css')}}">
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="{{asset('css/main.css')}}">
+        <!-- media-queries -->
+        <link rel="stylesheet" href="{{asset('css/media-queries.css')}}">
 
-            .content {
-                text-align: center;
-            }
+        <!-- Modernizer Script for old Browsers -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
 
-            .title {
-                font-size: 84px;
-            }
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    <a href="{{ url('/login') }}">Login</a>
-                    <a href="{{ url('/register') }}">Register</a>
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+            
+ <header id="navigation" class="navbar-fixed-top navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-2x"></i>
+                    </button>
+                    <!-- /responsive nav button -->
+                    
+                    <!-- logo -->
+                    <a class="navbar-brand" href="#body">
+                        <h1 id="logo">
+                            <img src="img/logo.png" alt="WELCOME">
+                        </h1>
+                    </a>
+                    <!-- /logo -->
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                <!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li class="current"><a href="#body">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#works">Work</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    @if (Route::has('login'))
+                   <li> <a href="{{ url('/login') }}">Login</a></li>
+                   <li> <a href="{{ url('/register') }}">Register</a></li>
+                    @endif
+                    </ul>
+                </nav>
             </div>
+        </header>
+
+
+</head>
+<body style="background-color:green" id="body">
+<!--
+<div id="preloader">
+            <img src="img/preloader.gif" alt="Preloader">
         </div>
+        -->
+
+  <p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals</p>      
+<h1>hello</h1>
+
     </body>
 </html>

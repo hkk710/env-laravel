@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="{{ asset('css/parsley.css') }}">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
@@ -79,8 +80,8 @@ element {
 }
 }
 </style>
-
-
+<script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/parsley.min.js') }}"></script>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -222,6 +223,12 @@ element {
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="w3-content w3-container w3-padding-64">
+  @if (Session::has('success'))
+    <div class="w3-panel w3-green">
+      <h3>Success!</h3>
+      <p>{{ Session::get('success') }}</p>
+    </div>
+  @endif
   <h3 class="w3-center">WHERE WE WORK</h3>
   <p class="w3-center"><em>We'd love your feedback!</em></p>
 
@@ -240,7 +247,7 @@ element {
 
 
 
-      <form class="w3-row-padding" style="margin:0 -16px 8px -16px" method="POST" action="/contact_us/send" data-parsley-validate>
+      <form class="w3-row-padding" style="margin:0 -16px 8px -16px" method="POST" action="/send" data-parsley-validate>
         {{ csrf_field() }}
         <div class="w3-half">
           <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Name" name="name" required="required" maxlength="255">
@@ -248,10 +255,21 @@ element {
         <div class="w3-half">
           <input class="w3-input w3-border w3-hover-light-grey" type="email" placeholder="Email" name="email" required="required" maxlength="255">
         </div>
+        <div class="w3-col">
+          <textarea class="w3-input w3-border w3-hover-light-grey" required="required" type="text" placeholder="Comment" name="comment" rows="5" cols="40" minlength="5"></textarea>
+        </div>
+        <input class="w3-btn w3-section w3-right" type="submit" value="SEND MESSAGE">
         </form>
-        <textarea class="w3-input w3-border w3-hover-light-grey" required="required" type="text" placeholder="Comment" name="comment" rows="5" cols="40" minlength="5"></textarea>
-        <button class="w3-btn w3-section w3-right" type="submit" name="submit" value="Send">SEND MESSAGE</button>
-        
+        @if (count($errors) > 0)
+          <div class="w3-container w3-red" style="margin-top: 10px">
+            <h3>Sorry!</h3>
+            <p>
+              @foreach ($errors->all() as $error)
+                {{ $error }}
+              @endforeach
+            </p>
+          </div>
+        @endif
 </div>
 </div>
 </div>
@@ -314,6 +332,5 @@ function myFunction() {
     }
 }
 </script>
-
 </body>
 </html>

@@ -1,11 +1,35 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>
-        {{ trans('quickadmin::admin.partials-header-title') }}
+        LOGIN
     </title>
+    <div id="app" >
+        <nav class="navbar navbar-default navbar-static-top" style="background-color:green">
+            <div class="container" >
+                <div class="navbar-header" >
+
+                    <!-- Collapsed Hamburger -->
+                    <button type="button"  class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <!-- Branding Image -->
+                    <a class="navbar-brand" style="color:#fff !important" href="{{ url('/') }}">
+                        HOME
+                    </a>
+                </div>
+                </div>
+                </nav>
+                </div>
+                </head>
+                
 
     <meta http-equiv="X-UA-Compatible"
           content="IE=edge">
@@ -38,3 +62,4 @@
 </head>
 
 <body class="page-header-fixed">
+</body>

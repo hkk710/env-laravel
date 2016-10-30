@@ -177,9 +177,40 @@ element {
 </div>
 
 <!-- Container (Team Section) -->
-<div id="team" class="w3-content w3-container w3-padding-64">
-  <h3 class="w3-center">GROUP MEMBERS</h3>
-  <p class="w3-center"><em>We are one team.<br> </em></p><br>
+
+<div class="w3-container w3-padding-64 w3-center" id="team" style="background-color:green;color:#fff !important">
+<h2>OUR TEAM</h2>
+<p>Meet the team - our office rats:</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="{{asset('images/HARIKRISHNA.jpg')}}" alt="" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>HARIKRISHNA AJ</h3>
+  <p>Member</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="{{asset('images/arjun.jpg')}}" alt="" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>ARJUN NM</h3>
+  <p>Member</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="{{asset('images/govindan1.jpg')}}" alt="" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>HARIGOVINDAN MG</h3>
+  <p>Member</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="{{asset('images/crop.jpg')}}" alt="" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>JOEL JOHN</h3>
+  <p>Member</p>
+</div>
+
+</div>
+</div>
+
  </div>
 
 <!-- Third Parallax Image with Portfolio Text -->
@@ -206,19 +237,27 @@ element {
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: crossfire@gmail.com<br>
       </div>
       <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-      <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+
+
+
+      <form class="w3-row-padding" style="margin:0 -16px 8px -16px" method="POST" action="/contact_us/send" data-parsley-validate>
+        {{ csrf_field() }}
         <div class="w3-half">
-          <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Name">
+          <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Name" name="name" required="required" maxlength="255">
         </div>
         <div class="w3-half">
-          <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Email">
+          <input class="w3-input w3-border w3-hover-light-grey" type="email" placeholder="Email" name="email" required="required" maxlength="255">
         </div>
-      </div>
-      <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Comment">
-      <button class="w3-btn w3-section w3-right">SEND MESSAGE</button>
-    </div>
-  </div>
+        </form>
+        <textarea class="w3-input w3-border w3-hover-light-grey" required="required" type="text" placeholder="Comment" name="comment" rows="5" cols="40" minlength="5"></textarea>
+        <button class="w3-btn w3-section w3-right" type="submit" name="submit" value="Send">SEND MESSAGE</button>
+        
 </div>
+</div>
+</div>
+
+
+
 
 <!-- Footer -->
 <footer class="w3-center  w3-padding-16 w3-opacity w3-hover-opacity-off" style="background-color:green;color:white !important">

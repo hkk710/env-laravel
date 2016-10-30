@@ -41,7 +41,7 @@ class HomeController extends Controller
           Mail::send('emails.contact', $data, function($message) use ($data) {
               $message->from($data['email']);
               $message->to("hkk710@gmail.com");
-              $message->subject("Edit this");
+              $message->subject("Thanks for your valuable feedback");
           });
           Session::flash('success', 'Your email was successfully send');
           return redirect()->route('home');

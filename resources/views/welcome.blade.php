@@ -79,6 +79,47 @@ element {
     overflow: hidden;
 }
 }
+
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 </style>
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="{{ asset('js/parsley.min.js') }}"></script>
@@ -259,7 +300,7 @@ element {
         <div class="w3-col">
           <textarea class="w3-input w3-border w3-hover-light-grey" required="required" type="text" placeholder="Comment" name="comment" rows="5" cols="40" minlength="5"></textarea>
         </div>
-        <input class="w3-btn w3-section w3-right" type="submit" value="SEND MESSAGE">
+        <button class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>SEND MESSAGE </span></button>
         </form>
         @if (count($errors) > 0)
           <div class="w3-container w3-red" style="margin-top: 10px">

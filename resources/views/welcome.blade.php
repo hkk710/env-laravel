@@ -279,7 +279,7 @@ Waste Management</p>
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-4 w3-display-container">
   <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-light-grey w3-wide">TEAM</span>
+     <span class="w3-xxlarge w3-text-light-grey w3-wide" style="color:#000 !important">TEAM</span>
   </div>
 </div>
 
@@ -287,8 +287,9 @@ Waste Management</p>
 
 <div class="w3-container w3-padding-64 w3-center" id="team" style="background-color:green;color:#fff !important">
 <h2>OUR TEAM</h2>
+<br>
 <p>Meet the team - our office rats:</p>
-
+<br>
 <div class="w3-row"><br>
 
 <div class="w3-quarter">

@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
 <title>EVS PROJECT</title>
+
+<!--bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!------------------------end-->
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -205,11 +217,64 @@ element {
   </div>
 </div>
 
+
 <!-- Container (Portfolio Section) -->
 <div id="wastemanagement" class="w3-content w3-container w3-padding-64">
-  <h3 class="w3-center">Waste Management</h3>
-  <p class="w3-center"><em>Here are some methods to manage different types of wastes.<br> </em></p><br>
+  <h3 class="w3-center w3-container">Waste Management</h3>
+  <p class="w3-container w3-center">Reduce, Reuse, Recycle: Alternatives for 
+Waste Management</p>
  </div>
+ <br>
+<div class="row">
+  <div class="col-sm-3 col-xs-12">
+  <div class="panel panel-default text-center thumbnail" style="background-color:green">
+      <img src="{{asset('images/ii.jpg')}}" alt="...">
+      <div class="caption" style="color:#fff !important">
+        <h3>Municipal waste</h3>
+        <p>Municipal Solid Waste (MSW) -- more commonly known as trash or garbage — consists of everyday items we use and then throw away, such as product packaging, grass clippings, furniture, clothing, bottles, food scraps, newspapers, appliances, paint, and batteries.</p>
+        <button class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></button>
+        <br>
+        <br>
+      </div>
+    </div>
+</div>
+  <div class="col-sm-3 col-xs-12">
+    <div class="panel panel-default text-center thumbnail" style="background-color:green">
+      <img src="{{asset('images/iii.jpg')}}" alt="...">
+      <div class="caption" style="color:#fff !important">
+        <h3>Industrial waste</h3>
+        <p>Industrial waste is the waste produced by industrial activity which includes any material that is rendered useless during a manufacturing process such as that of factories, industries, mills, and mining operations. It has existed since the start of the Industrial <Revolution class=""></Revolution></p>
+        <button class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></button>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3 col-xs-12">
+    <div class="panel panel-default text-center thumbnail" style="background-color:green" >
+      <img src="{{asset('images/iiii.jpg')}}" alt="...">
+      <div class="caption" style="color:#fff !important">
+        <h3>Biomedical Waste</h3>
+        <p>Definition. According to Biomedical Waste (Management and Handling) Rules, 1998 of India “Any waste which is generated during the diagnosis, treatment or immunization of human beings or animals or in research activities pertaining thereto or in the production or testing of biologicals.</p>
+       <button class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></button>
+       <br>
+       <br>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3 col-xs-12">
+    <div class="panel panel-default text-center thumbnail" style="background-color:green">
+      <img src="{{asset('images/i.JPG')}}" alt="...">
+      <div class="caption" style="color:#fff !important">
+        <h3>Electronic waste</h3>
+        <p>Electronic waste is a term for electronic products that have become unwanted, non-working or obsolete, and have essentially reached the end of their useful life. Because technology advances at such a high rate, many electronic devices become “trash” after a few short years of use.</p>
+          <button class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></button>
+          <br>
+          <br>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-4 w3-display-container">
@@ -227,25 +292,25 @@ element {
 <div class="w3-row"><br>
 
 <div class="w3-quarter">
-  <img src="{{asset('images/HARIKRISHNA.jpg')}}" alt="" style="width:45%" class="w3-circle w3-hover-opacity">
+  <img src="{{asset('images/HARIKRISHNA.jpg')}}" alt="" draggable="false" style="width:45%" class="w3-circle w3-hover-opacity">
   <h3>HARIKRISHNA AJ</h3>
   <p>Member</p>
 </div>
 
 <div class="w3-quarter">
-  <img src="{{asset('images/arjun.jpg')}}" alt="" style="width:45%" class="w3-circle w3-hover-opacity">
+  <img src="{{asset('images/arjun.jpg')}}" alt="" draggable="false" style="width:45%" class="w3-circle w3-hover-opacity">
   <h3>ARJUN NM</h3>
   <p>Member</p>
 </div>
 
 <div class="w3-quarter">
-  <img src="{{asset('images/govindan1.jpg')}}" alt="" style="width:45%" class="w3-circle w3-hover-opacity">
+  <img src="{{asset('images/govindan1.jpg')}}" alt="" draggable="false" style="width:45%" class="w3-circle w3-hover-opacity">
   <h3>HARIGOVINDAN MG</h3>
   <p>Member</p>
 </div>
 
 <div class="w3-quarter">
-  <img src="{{asset('images/j.jpg')}}" alt="" style="width:57%" class="w3-circle w3-hover-opacity">
+  <img src="{{asset('images/j.jpg')}}" alt="" draggable="false" style="width:57%" class="w3-circle w3-hover-opacity">
   <h3>JOEL JOHN</h3>
   <p>Member</p>
 </div>

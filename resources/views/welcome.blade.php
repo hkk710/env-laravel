@@ -3,14 +3,9 @@
 <title>EVS PROJECT</title>
 
 <!--bootstrap-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!------------------------end-->
+<script src="{{ asset('js/app.js') }}"></script>
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +22,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
     opacity: 0.7;
     background-attachment: fixed;
     background-position: center;
@@ -58,12 +53,18 @@ body, html {
     min-height: 400px;
 }
 
+/* Fifth image (footprint)*/
+.bgimg-5 {
+    background-image: url('images/footprint.jpg');
+    min-height: 400px;
+}
+
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
         background-attachment: scroll;
     }
 }
@@ -138,13 +139,14 @@ element {
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top" style="color:#fff !important">
+<div class="w3-top" data-spy="scroll" style="color:#fff !important">
   <ul class="w3-navbar w3-card-2 w3-animate-top w3-green" id="myNavbar">
     <li><a href="#">HOME</a></li>
     <li class="w3-hide-small w3-right">
     <nav class="collapse navbar-collapse navbar-right" role="navigation">
                         <li><a href="#typesofwastes">Types of Waste</a></li>
                         <li><a href="#wastemanagement">Waste Management </a></li>
+                        <li><a href="#footprint">Foot Print</a></li>
                         <li><a href="#team">Team</a></li>
                         <li><a href="#contact">Contact</a></li>
                     @if (Route::has('login'))
@@ -232,7 +234,7 @@ Waste Management</p>
       <div class="caption" style="color:#fff !important">
         <h3>Municipal waste</h3>
         <p>Municipal Solid Waste (MSW) -- more commonly known as trash or garbage — consists of everyday items we use and then throw away, such as product packaging, grass clippings, furniture, clothing, bottles, food scraps, newspapers, appliances, paint, and batteries.</p>
-        <button class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></button>
+        <a href="{{url('/municipal')}}"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
         <br>
         <br>
       </div>
@@ -244,7 +246,7 @@ Waste Management</p>
       <div class="caption" style="color:#fff !important">
         <h3>Industrial waste</h3>
         <p>Industrial waste is the waste produced by industrial activity which includes any material that is rendered useless during a manufacturing process such as that of factories, industries, mills, and mining operations. It has existed since the start of the Industrial <Revolution class=""></Revolution></p>
-        <button class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></button>
+         <a href="{{url('/industrial')}}"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
         <br>
         <br>
       </div>
@@ -256,7 +258,7 @@ Waste Management</p>
       <div class="caption" style="color:#fff !important">
         <h3>Biomedical Waste</h3>
         <p>Definition. According to Biomedical Waste (Management and Handling) Rules, 1998 of India “Any waste which is generated during the diagnosis, treatment or immunization of human beings or animals or in research activities pertaining thereto or in the production or testing of biologicals.</p>
-       <button class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></button>
+        <a href="{{url('/biomedical')}}"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
        <br>
        <br>
       </div>
@@ -268,13 +270,74 @@ Waste Management</p>
       <div class="caption" style="color:#fff !important">
         <h3>Electronic waste</h3>
         <p>Electronic waste is a term for electronic products that have become unwanted, non-working or obsolete, and have essentially reached the end of their useful life. Because technology advances at such a high rate, many electronic devices become “trash” after a few short years of use.</p>
-          <button class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></button>
+           <a href="{{url('/ewaste')}}"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
           <br>
           <br>
       </div>
     </div>
   </div>
 </div>
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-5 w3-display-container">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-light-grey w3-wide" style="color:#000 !important">FOOT PRINT</span>
+  </div>
+</div>
+
+<!-- Container (Team Section) -->
+
+<div class="w3-container w3-padding-64 w3-center" id="footprint">
+<h2>FOOT PRINT</h2>
+<br>
+<p> Ecological Footprint and biocapacity</p>
+<br>
+<div class="w3-row"><br>
+
+<div class="w3-quarter ad-img-hover">
+  <a href="#icon-1" aria-controls="icon-1" data-toggle="tab"><img src="{{asset('images/icon-1-fade.png')}}" alt="" draggable="false" style="width:45%" class="ad-img-on">
+    <img src="{{asset('images/icon-1.png')}}" alt="" draggable="false" style="width:45%; display: none;" class="ad-img-off"></a>
+    <h3>HARIKRISHNA AJ</h3>
+    <p>Member</p>
+</div>
+
+<div class="w3-quarter ad-img-hover">
+<a href="#icon-2" aria-controls="icon-2" data-toggle="tab"> <img src="{{asset('images/icon-2-fade.png')}}" alt="" draggable="false" style="width:45%" class="ad-img-on">
+  <img src="{{asset('images/icon-2.png')}}" alt="" draggable="false" style="width:45%; display: none;" class="ad-img-off"></a>
+  <h3>ARJUN NM</h3>
+  <p>Member</p>
+</div>
+
+<div class="w3-quarter ad-img-hover">
+  <a href="#icon-3" aria-controls="icon-3" data-toggle="tab"><img src="{{asset('images/icon-3-fade.png')}}" alt="" draggable="false" style="width:53%" class="ad-img-on">
+    <img src="{{asset('images/icon-3.png')}}" alt="" draggable="false" style="width:53%; display: none;" class="ad-img-off"></a>
+    <h3>HARIGOVINDAN MG</h3>
+    <p>Member</p>
+</div>
+
+<div class="w3-quarter ad-img-hover">
+  <a href="#icon-4" aria-controls="icon-4" data-toggle="tab"><img src="{{asset('images/icon-4-fade.png')}}" alt="" draggable="false" style="width:45%" class="ad-img-on">
+    <img src="{{asset('images/icon-4.png')}}" alt="" draggable="false" style="width:45%; display: none;" class="ad-img-off"></a>
+  <h3>JOEL JOHN</h3>
+  <p>Member</p>
+</div>
+</div>
+
+<div class="container">
+  <div class="panel panel-success">
+    <div class="panel-body">
+      <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="icon-1">..df.</div>
+          <div role="tabpanel" class="tab-pane" id="icon-2">Hoiiiiiiiiiii</div>
+          <div role="tabpanel" class="tab-pane" id="icon-3">hhhhhhhhhhhhhhhhhhiiiiiiiii</div>
+          <div role="tabpanel" class="tab-pane" id="icon-4">fihakhfjshdfiiiiiii</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-4 w3-display-container">
@@ -320,6 +383,9 @@ Waste Management</p>
 </div>
 
  </div>
+
+
+
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container">

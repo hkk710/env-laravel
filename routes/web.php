@@ -23,3 +23,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 Route::post('/send', 'HomeController@send');
+
+Auth::routes();
+
+Route::get('/municipal', 'municipalController@index');
+Route::get('/industrial', 'industrialController@index');
+Route::get('/biomedical', 'biomedicalController@index');
+Route::get('/ewaste', 'ewasteController@index');

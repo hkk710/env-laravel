@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 <title>EVS PROJECT</title>
+
+<!--bootstrap-->
+<link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
+<script src="{{ asset('js/app.js') }}"></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -15,7 +22,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
     opacity: 0.7;
     background-attachment: fixed;
     background-position: center;
@@ -46,12 +53,18 @@ body, html {
     min-height: 400px;
 }
 
+/* Fifth image (footprint)*/
+.bgimg-5 {
+    background-image: url('images/footprint.jpg');
+    min-height: 400px;
+}
+
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
         background-attachment: scroll;
     }
 }
@@ -79,19 +92,61 @@ element {
     overflow: hidden;
 }
 }
+
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 </style>
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="{{ asset('js/parsley.min.js') }}"></script>
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top" style="color:#fff !important">
+<div class="w3-top" data-spy="scroll" style="color:#fff !important">
   <ul class="w3-navbar w3-card-2 w3-animate-top w3-green" id="myNavbar">
     <li><a href="#">HOME</a></li>
     <li class="w3-hide-small w3-right">
     <nav class="collapse navbar-collapse navbar-right" role="navigation">
                         <li><a href="#typesofwastes">Types of Waste</a></li>
                         <li><a href="#wastemanagement">Waste Management </a></li>
+                        <li><a href="#footprint">Foot Print</a></li>
                         <li><a href="#team">Team</a></li>
                         <li><a href="#contact">Contact</a></li>
                     @if (Route::has('login'))
@@ -164,16 +219,130 @@ element {
   </div>
 </div>
 
+
 <!-- Container (Portfolio Section) -->
 <div id="wastemanagement" class="w3-content w3-container w3-padding-64">
-  <h3 class="w3-center">Waste Management</h3>
-  <p class="w3-center"><em>Here are some methods to manage different types of wastes.<br> </em></p><br>
+  <h3 class="w3-center w3-container">Waste Management</h3>
+  <p class="w3-container w3-center">Reduce, Reuse, Recycle: Alternatives for 
+Waste Management</p>
  </div>
+ <br>
+<div class="row">
+  <div class="col-sm-3 col-xs-12">
+  <div class="panel panel-default text-center thumbnail" style="background-color:green">
+      <img src="{{asset('images/ii.jpg')}}" alt="...">
+      <div class="caption" style="color:#fff !important">
+        <h3>Municipal waste</h3>
+        <p>Municipal Solid Waste (MSW) -- more commonly known as trash or garbage — consists of everyday items we use and then throw away, such as product packaging, grass clippings, furniture, clothing, bottles, food scraps, newspapers, appliances, paint, and batteries.</p>
+        <a href="{{url('/municipal')}}"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
+        <br>
+        <br>
+      </div>
+    </div>
+</div>
+  <div class="col-sm-3 col-xs-12">
+    <div class="panel panel-default text-center thumbnail" style="background-color:green">
+      <img src="{{asset('images/iii.jpg')}}" alt="...">
+      <div class="caption" style="color:#fff !important">
+        <h3>Industrial waste</h3>
+        <p>Industrial waste is the waste produced by industrial activity which includes any material that is rendered useless during a manufacturing process such as that of factories, industries, mills, and mining operations. It has existed since the start of the Industrial <Revolution class=""></Revolution></p>
+         <a href="{{url('/industrial')}}"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3 col-xs-12">
+    <div class="panel panel-default text-center thumbnail" style="background-color:green" >
+      <img src="{{asset('images/iiii.jpg')}}" alt="...">
+      <div class="caption" style="color:#fff !important">
+        <h3>Biomedical Waste</h3>
+        <p>Definition. According to Biomedical Waste (Management and Handling) Rules, 1998 of India “Any waste which is generated during the diagnosis, treatment or immunization of human beings or animals or in research activities pertaining thereto or in the production or testing of biologicals.</p>
+        <a href="{{url('/biomedical')}}"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
+       <br>
+       <br>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3 col-xs-12">
+    <div class="panel panel-default text-center thumbnail" style="background-color:green">
+      <img src="{{asset('images/i.JPG')}}" alt="...">
+      <div class="caption" style="color:#fff !important">
+        <h3>Electronic waste</h3>
+        <p>Electronic waste is a term for electronic products that have become unwanted, non-working or obsolete, and have essentially reached the end of their useful life. Because technology advances at such a high rate, many electronic devices become “trash” after a few short years of use.</p>
+           <a href="{{url('/ewaste')}}"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
+          <br>
+          <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-5 w3-display-container">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-light-grey w3-wide" style="color:#000 !important">FOOT PRINT</span>
+  </div>
+</div>
+
+<!-- Container (Team Section) -->
+
+<div class="w3-container w3-padding-64 w3-center" id="footprint">
+<h2>FOOT PRINT</h2>
+<br>
+<p> Ecological Footprint and biocapacity</p>
+<br>
+<div class="w3-row"><br>
+
+<div class="w3-quarter ad-img-hover">
+  <a href="#icon-1" aria-controls="icon-1" data-toggle="tab"><img src="{{asset('images/icon-1-fade.png')}}" alt="" draggable="false" style="width:45%" class="ad-img-on">
+    <img src="{{asset('images/icon-1.png')}}" alt="" draggable="false" style="width:45%; display: none;" class="ad-img-off"></a>
+    <h3>HARIKRISHNA AJ</h3>
+    <p>Member</p>
+</div>
+
+<div class="w3-quarter ad-img-hover">
+<a href="#icon-2" aria-controls="icon-2" data-toggle="tab"> <img src="{{asset('images/icon-2-fade.png')}}" alt="" draggable="false" style="width:45%" class="ad-img-on">
+  <img src="{{asset('images/icon-2.png')}}" alt="" draggable="false" style="width:45%; display: none;" class="ad-img-off"></a>
+  <h3>ARJUN NM</h3>
+  <p>Member</p>
+</div>
+
+<div class="w3-quarter ad-img-hover">
+  <a href="#icon-3" aria-controls="icon-3" data-toggle="tab"><img src="{{asset('images/icon-3-fade.png')}}" alt="" draggable="false" style="width:53%" class="ad-img-on">
+    <img src="{{asset('images/icon-3.png')}}" alt="" draggable="false" style="width:53%; display: none;" class="ad-img-off"></a>
+    <h3>HARIGOVINDAN MG</h3>
+    <p>Member</p>
+</div>
+
+<div class="w3-quarter ad-img-hover">
+  <a href="#icon-4" aria-controls="icon-4" data-toggle="tab"><img src="{{asset('images/icon-4-fade.png')}}" alt="" draggable="false" style="width:45%" class="ad-img-on">
+    <img src="{{asset('images/icon-4.png')}}" alt="" draggable="false" style="width:45%; display: none;" class="ad-img-off"></a>
+  <h3>JOEL JOHN</h3>
+  <p>Member</p>
+</div>
+</div>
+
+<div class="container">
+  <div class="panel panel-success">
+    <div class="panel-body">
+      <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="icon-1">..df.</div>
+          <div role="tabpanel" class="tab-pane" id="icon-2">Hoiiiiiiiiiii</div>
+          <div role="tabpanel" class="tab-pane" id="icon-3">hhhhhhhhhhhhhhhhhhiiiiiiiii</div>
+          <div role="tabpanel" class="tab-pane" id="icon-4">fihakhfjshdfiiiiiii</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-4 w3-display-container">
   <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-light-grey w3-wide">TEAM</span>
+     <span class="w3-xxlarge w3-text-light-grey w3-wide" style="color:#000 !important">TEAM</span>
   </div>
 </div>
 
@@ -181,30 +350,31 @@ element {
 
 <div class="w3-container w3-padding-64 w3-center" id="team" style="background-color:green;color:#fff !important">
 <h2>OUR TEAM</h2>
+<br>
 <p>Meet the team - our office rats:</p>
-
+<br>
 <div class="w3-row"><br>
 
 <div class="w3-quarter">
-  <img src="{{asset('images/HARIKRISHNA.jpg')}}" alt="" style="width:45%" class="w3-circle w3-hover-opacity">
+  <img src="{{asset('images/HARIKRISHNA.jpg')}}" alt="" draggable="false" style="width:45%" class="w3-circle w3-hover-opacity">
   <h3>HARIKRISHNA AJ</h3>
   <p>Member</p>
 </div>
 
 <div class="w3-quarter">
-  <img src="{{asset('images/arjun.jpg')}}" alt="" style="width:45%" class="w3-circle w3-hover-opacity">
+  <img src="{{asset('images/arjun.jpg')}}" alt="" draggable="false" style="width:45%" class="w3-circle w3-hover-opacity">
   <h3>ARJUN NM</h3>
   <p>Member</p>
 </div>
 
 <div class="w3-quarter">
-  <img src="{{asset('images/govindan1.jpg')}}" alt="" style="width:45%" class="w3-circle w3-hover-opacity">
+  <img src="{{asset('images/govindan1.jpg')}}" alt="" draggable="false" style="width:45%" class="w3-circle w3-hover-opacity">
   <h3>HARIGOVINDAN MG</h3>
   <p>Member</p>
 </div>
 
 <div class="w3-quarter">
-  <img src="{{asset('images/crop.jpg')}}" alt="" style="width:45%" class="w3-circle w3-hover-opacity">
+  <img src="{{asset('images/j.jpg')}}" alt="" draggable="false" style="width:57%" class="w3-circle w3-hover-opacity">
   <h3>JOEL JOHN</h3>
   <p>Member</p>
 </div>
@@ -214,6 +384,9 @@ element {
 
  </div>
 
+
+
+
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container">
   <div class="w3-display-middle">
@@ -222,6 +395,7 @@ element {
 </div>
 
 <!-- Container (Contact Section) -->
+<div style="background-color:">
 <div id="contact" class="w3-content w3-container w3-padding-64">
   @if (Session::has('success'))
     <div class="w3-panel w3-green">
@@ -232,7 +406,7 @@ element {
   <h3 class="w3-center">WHERE WE WORK</h3>
   <p class="w3-center"><em>We'd love your feedback!</em></p>
 
-  <div class="w3-row w3-padding-32 w3-section">
+  <div  class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
       <!-- Add Google Maps -->
       <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
@@ -240,7 +414,7 @@ element {
     <div class="w3-col m8 w3-container w3-section">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> AMRITAPURI, KERALA<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +91 9447103444<br>
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: crossfire@gmail.com<br>
       </div>
       <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
@@ -258,7 +432,7 @@ element {
         <div class="w3-col">
           <textarea class="w3-input w3-border w3-hover-light-grey" required="required" type="text" placeholder="Comment" name="comment" rows="5" cols="40" minlength="5"></textarea>
         </div>
-        <input class="w3-btn w3-section w3-right" type="submit" value="SEND MESSAGE">
+        <button class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>SEND MESSAGE </span></button>
         </form>
         @if (count($errors) > 0)
           <div class="w3-container w3-red" style="margin-top: 10px">
@@ -270,6 +444,7 @@ element {
             </p>
           </div>
         @endif
+</div>
 </div>
 </div>
 </div>
@@ -291,7 +466,7 @@ element {
 <script src="https://maps.googleapis.com/maps/api/js"></script>
 <script>
 <!-- Google Map Location -->
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+var myCenter = new google.maps.LatLng(9.093855, 76.491880);
 
 function initialize() {
 var mapProp = {

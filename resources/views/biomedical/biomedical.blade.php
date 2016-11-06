@@ -26,7 +26,7 @@
 			<div>
 				<h1>COUNTRIES WITH BIOCAPACITY RESERVE</h1>
                 <p>Percentage that biocapacity exceeds Ecological Footprint</p>
-				<div class="panel panel-primary" >
+				<div class="panel panel-primary">
 					<ul data-spy="scroll" data-offset="50">
 					<li>Guyana 2,100%</li>
 					<li>Congo 750%</li>

@@ -1,10 +1,3 @@
-div.ad-img-hover > a:hover > img.ad-img-on  {
-	display: none;
-}
-div.ad-img-hover > a:hover > img.ad-img-off {
-	display: block!Important;
-	margin-left: 30%; 
-}
 div.ad-img-hover > a {
 	cursor: pointer;
 }

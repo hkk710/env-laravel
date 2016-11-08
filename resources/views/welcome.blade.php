@@ -507,6 +507,9 @@ Biocapacity Per Capita</h3>
           <div role="tabpanel" class="tab-pane" id="icon-2">
             <div class="col-md-12">
               <div class="w3-panel w3-orange row">
+                <h4>COUNTRIES RANKED BY TOTAL ECOLOGICAL FOOTPRINT (in global hectares) </h4>
+                <hr>
+                <div class="panel panel-primary" style="color: #111!important; box-shadow: inset 0 0 5px 1px grey;">
                 <ul style="list-style: none; padding: 0; height: 400px; overflow-y: scroll;">
                   <li>1 China 4,800,000,000</li>
                   <li>2 United States of America 2,600,000,000</li>
@@ -517,224 +520,634 @@ Biocapacity Per Capita</h3>
                   <li>7 Germany 440,000,000</li>
                   <li>8 Indonesia 390,000,000</li>
                   <li>9 Mexico 350,000,000</li>
-                  <li><span class="order-class">10</span><span class="contry-name long">France</span><span class="value-data">330,000,000</span></li>
-                  <li><span class="order-class">11</span><span class="contry-name long">United Kingdom</span><span class="value-data">310,000,000</span></li>
-                  <li><span class="order-class">12</span><span class="contry-name long">Canada</span><span class="value-data">280,000,000</span></li>
-                  <li><span class="order-class">13</span><span class="contry-name long">Italy</span><span class="value-data">280,000,000</span></li>
-                  <li><span class="order-class">14</span><span class="contry-name long">Korea, Republic of</span><span class="value-data">280,000,000</span></li>
-                  <li><span class="order-class">15</span><span class="contry-name long">Turkey</span><span class="value-data">250,000,000</span></li>
-                  <li><span class="order-class">16</span><span class="contry-name long">Australia</span><span class="value-data">210,000,000</span></li>
-                  <li><span class="order-class">17</span><span class="contry-name long">Iran, Islamic Republic of</span><span class="value-data">210,000,000</span></li>
-                  <li><span class="order-class">18</span><span class="contry-name long">Nigeria</span><span class="value-data">200,000,000</span></li>
-                  <li><span class="order-class">19</span><span class="contry-name long">Thailand</span><span class="value-data">180,000,000</span></li>
-                  <li><span class="order-class">20</span><span class="contry-name long">South Africa</span><span class="value-data">170,000,000</span></li>
-                  <li><span class="order-class">21</span><span class="contry-name long">Egypt</span><span class="value-data">170,000,000</span></li>
-                  <li><span class="order-class">22</span><span class="contry-name long">Spain</span><span class="value-data">170,000,000</span></li>
-                  <li><span class="order-class">23</span><span class="contry-name long">Poland</span><span class="value-data">170,000,000</span></li>
-                  <li><span class="order-class">24</span><span class="contry-name long">Viet Nam</span><span class="value-data">150,000,000</span></li>
-                  <li><span class="order-class">25</span><span class="contry-name long">Pakistan</span><span class="value-data">140,000,000</span></li>
-                  <li><span class="order-class">26</span><span class="contry-name long">Ukraine</span><span class="value-data">130,000,000</span></li>
-                  <li><span class="order-class">27</span><span class="contry-name long">Argentina</span><span class="value-data">130,000,000</span></li>
-                  <li><span class="order-class">28</span><span class="contry-name long">Bangladesh</span><span class="value-data">110,000,000</span></li>
-                  <li><span class="order-class">29</span><span class="contry-name long">Malaysia</span><span class="value-data">110,000,000</span></li>
-                  <li><span class="order-class">30</span><span class="contry-name long">Venezuela, Bolivarian Republic of</span><span class="value-data">110,000,000</span></li>
-                  <li><span class="order-class">31</span><span class="contry-name long">Philippines</span><span class="value-data">110,000,000</span></li>
-                  <li><span class="order-class">32</span><span class="contry-name long">Ethiopia</span><span class="value-data">93,000,000</span></li>
-                  <li><span class="order-class">33</span><span class="contry-name long">Colombia</span><span class="value-data">89,000,000</span></li>
-                  <li><span class="order-class">34</span><span class="contry-name long">Netherlands</span><span class="value-data">88,000,000</span></li>
-                  <li><span class="order-class">35</span><span class="contry-name long">Belgium</span><span class="value-data">82,000,000</span></li><li><span class="order-class">36</span><span class="contry-name long">Algeria</span><span class="value-data">81,000,000</span></li><li><span class="order-class">37</span><span class="contry-name long">Chile</span><span class="value-data">76,000,000</span></li><li><span class="order-class">38</span><span class="contry-name long">Myanmar</span><span class="value-data">76,000,000</span></li><li><span class="order-class">39</span><span class="contry-name long">Sweden</span><span class="value-data">69,000,000</span></li><li><span class="order-class">40</span><span class="contry-name long">Peru</span><span class="value-data">68,000,000</span></li><li><span class="order-class">41</span><span class="contry-name long">Uzbekistan</span><span class="value-data">66,000,000</span></li><li><span class="order-class">42</span><span class="contry-name long">Tanzania, United Republic of</span><span class="value-data">63,000,000</span></li><li><span class="order-class">43</span><span class="contry-name long">Iraq</span><span class="value-data">62,000,000</span></li><li><span class="order-class">44</span><span class="contry-name long">Romania</span><span class="value-data">59,000,000</span></li><li><span class="order-class">45</span><span class="contry-name long">Czech Republic</span><span class="value-data">55,000,000</span></li><li><span class="order-class">46</span><span class="contry-name long">Morocco</span><span class="value-data">55,000,000</span></li><li><span class="order-class">47</span><span class="contry-name long">Congo, Democratic Republic of</span><span class="value-data">54,000,000</span></li><li><span class="order-class">48</span><span class="contry-name long">Austria</span><span class="value-data">51,000,000</span></li><li><span class="order-class">49</span><span class="contry-name long">Ghana</span><span class="value-data">50,000,000</span></li><li><span class="order-class">50</span><span class="contry-name long">Greece</span><span class="value-data">49,000,000</span></li><li><span class="order-class">51</span><span class="contry-name long">Belarus</span><span class="value-data">48,000,000</span></li><li><span class="order-class">52</span><span class="contry-name long">Israel</span><span class="value-data">48,000,000</span></li><li><span class="order-class">53</span><span class="contry-name long">Switzerland</span><span class="value-data">46,000,000</span></li><li><span class="order-class">54</span><span class="contry-name long">Uganda</span><span class="value-data">45,000,000</span></li><li><span class="order-class">55</span><span class="contry-name long">Kenya</span><span class="value-data">45,000,000</span></li><li><span class="order-class">56</span><span class="contry-name long">Singapore</span><span class="value-data">42,000,000</span></li><li><span class="order-class">57</span><span class="contry-name long">Portugal</span><span class="value-data">41,000,000</span></li><li><span class="order-class">58</span><span class="contry-name long">Ecuador</span><span class="value-data">34,000,000</span></li><li><span class="order-class">59</span><span class="contry-name long">Syrian Arab Republic</span><span class="value-data">33,000,000</span></li><li><span class="order-class">60</span><span class="contry-name long">Finland</span><span class="value-data">32,000,000</span></li><li><span class="order-class">61</span><span class="contry-name long">Bolivia</span><span class="value-data">31,000,000</span></li><li><span class="order-class">62</span><span class="contry-name long">Denmark</span><span class="value-data">31,000,000</span></li><li><span class="order-class">63</span><span class="contry-name long">Hungary</span><span class="value-data">29,000,000</span></li><li><span class="order-class">64</span><span class="contry-name long">Korea, Democratic People's Republic of</span><span class="value-data">29,000,000</span></li><li><span class="order-class">65</span><span class="contry-name long">Guatemala</span><span class="value-data">28,000,000</span></li><li><span class="order-class">66</span><span class="contry-name long">Turkmenistan</span><span class="value-data">28,000,000</span></li><li><span class="order-class">67</span><span class="contry-name long">Sri Lanka</span><span class="value-data">28,000,000</span></li><li><span class="order-class">68</span><span class="contry-name long">Paraguay</span><span class="value-data">28,000,000</span></li><li><span class="order-class">69</span><span class="contry-name long">Nepal</span><span class="value-data">27,000,000</span></li><li><span class="order-class">70</span><span class="contry-name long">Niger</span><span class="value-data">27,000,000</span></li><li><span class="order-class">71</span><span class="contry-name long">Serbia</span><span class="value-data">26,000,000</span></li>
-                  <li>72 Ireland 25,000,000</li>
-                  <li>73 Tunisia 25,000,000</li>
-                  <li>74 Cameroon 25,000,000</li>
-                  <li><span class="order-class">75</span><span class="contry-name long">Côte d'Ivoire</span><span class="value-data">25,000,000</span></li><li><span class="order-class">76</span><span class="contry-name long">New Zealand</span><span class="value-data">25,000,000</span></li><li><span class="order-class">77</span><span class="contry-name long">Oman</span><span class="value-data">25,000,000</span></li><li><span class="order-class">78</span><span class="contry-name long">Norway</span><span class="value-data">25,000,000</span></li><li><span class="order-class">79</span><span class="contry-name long">Yemen</span><span class="value-data">24,000,000</span></li><li><span class="order-class">80</span><span class="contry-name long">Bulgaria</span><span class="value-data">24,000,000</span></li><li><span class="order-class">81</span><span class="contry-name long">Afghanistan</span><span class="value-data">24,000,000</span></li><li><span class="order-class">82</span><span class="contry-name long">Libyan Arab Jamahiriya</span><span class="value-data">23,000,000</span></li><li><span class="order-class">83</span><span class="contry-name long">Mali</span><span class="value-data">23,000,000</span></li><li><span class="order-class">84</span><span class="contry-name long">Slovakia</span><span class="value-data">22,000,000</span></li><li><span class="order-class">85</span><span class="contry-name long">Madagascar</span><span class="value-data">22,000,000</span></li><li><span class="order-class">86</span><span class="contry-name long">Cuba</span><span class="value-data">22,000,000</span></li><li><span class="order-class">87</span><span class="contry-name long">Mozambique</span><span class="value-data">22,000,000</span></li><li><span class="order-class">88</span><span class="contry-name long">Azerbaijan</span><span class="value-data">22,000,000</span></li><li><span class="order-class">89</span><span class="contry-name long">Burkina Faso</span><span class="value-data">20,000,000</span></li><li><span class="order-class">90</span><span class="contry-name long">Angola</span><span class="value-data">19,000,000</span></li><li><span class="order-class">91</span><span class="contry-name long">Zimbabwe</span><span class="value-data">19,000,000</span></li><li><span class="order-class">92</span><span class="contry-name long">Chad</span><span class="value-data">18,000,000</span></li><li><span class="order-class">93</span><span class="contry-name long">Cambodia</span><span class="value-data">18,000,000</span></li><li><span class="order-class">94</span><span class="contry-name long">Lebanon</span><span class="value-data">18,000,000</span></li><li><span class="order-class">95</span><span class="contry-name long">Lithuania</span><span class="value-data">18,000,000</span></li><li><span class="order-class">96</span><span class="contry-name long">Mongolia</span><span class="value-data">17,000,000</span></li><li><span class="order-class">97</span><span class="contry-name long">Croatia</span><span class="value-data">17,000,000</span></li><li><span class="order-class">98</span><span class="contry-name long">Senegal</span><span class="value-data">17,000,000</span></li><li><span class="order-class">99</span><span class="contry-name long">Guinea</span><span class="value-data">16,000,000</span></li><li><span class="order-class">100</span><span class="contry-name long">Dominican Republic</span><span class="value-data">16,000,000</span></li><li><span class="order-class">101</span><span class="contry-name long">Jordan</span><span class="value-data">15,000,000</span></li><li><span class="order-class">102</span><span class="contry-name long">Benin</span><span class="value-data">14,000,000</span></li><li><span class="order-class">103</span><span class="contry-name long">Zambia</span><span class="value-data">14,000,000</span></li><li><span class="order-class">104</span><span class="contry-name long">Papua New Guinea</span><span class="value-data">14,000,000</span></li><li><span class="order-class">105</span><span class="contry-name long">Costa Rica</span><span class="value-data">14,000,000</span></li><li><span class="order-class">106</span><span class="contry-name long">Honduras</span><span class="value-data">13,000,000</span></li><li><span class="order-class">107</span><span class="contry-name long">El Salvador</span><span class="value-data">13,000,000</span></li><li><span class="order-class">108</span><span class="contry-name long">Latvia</span><span class="value-data">13,000,000</span></li><li><span class="order-class">109</span><span class="contry-name long">Malawi</span><span class="value-data">13,000,000</span></li><li><span class="order-class">110</span><span class="contry-name long">Somalia</span><span class="value-data">13,000,000</span></li><li><span class="order-class">111</span><span class="contry-name long">Slovenia</span><span class="value-data">12,000,000</span></li><li><span class="order-class">112</span><span class="contry-name long">Bosnia and Herzegovina</span><span class="value-data">12,000,000</span></li><li><span class="order-class">113</span><span class="contry-name long">Panama</span><span class="value-data">11,000,000</span></li><li><span class="order-class">114</span><span class="contry-name long">Trinidad and Tobago</span><span class="value-data">11,000,000</span></li><li><span class="order-class">115</span><span class="contry-name long">Kyrgyzstan</span><span class="value-data">10,000,000</span></li><li><span class="order-class">116</span><span class="contry-name long">Rwanda</span><span class="value-data">9,900,000</span></li><li><span class="order-class">117</span><span class="contry-name long">Uruguay</span><span class="value-data">9,900,000</span></li><li><span class="order-class">118</span><span class="contry-name long">Mauritania</span><span class="value-data">9,700,000</span></li><li><span class="order-class">119</span><span class="contry-name long">Estonia</span><span class="value-data">8,900,000</span></li><li><span class="order-class">120</span><span class="contry-name long">Nicaragua</span><span class="value-data">8,300,000</span></li><li><span class="order-class">121</span><span class="contry-name long">Luxembourg</span><span class="value-data">8,300,000</span></li><li><span class="order-class">122</span><span class="contry-name long">Lao People's Democratic Republic</span><span class="value-data">8,100,000</span></li><li><span class="order-class">123</span><span class="contry-name long">Botswana</span><span class="value-data">7,700,000</span></li><li><span class="order-class">124</span><span class="contry-name long">Burundi</span><span class="value-data">7,600,000</span></li><li><span class="order-class">125</span><span class="contry-name long">Togo</span><span class="value-data">7,500,000</span></li><li><span class="order-class">126</span><span class="contry-name long">Sierra Leone</span><span class="value-data">7,400,000</span></li><li><span class="order-class">127</span><span class="contry-name long">Tajikistan</span><span class="value-data">7,300,000</span></li><li><span class="order-class">128</span><span class="contry-name long">Albania</span><span class="value-data">7,000,000</span></li><li><span class="order-class">129</span><span class="contry-name long">Georgia</span><span class="value-data">6,900,000</span></li><li><span class="order-class">130</span><span class="contry-name long">Macedonia TFYR</span><span class="value-data">6,900,000</span></li><li><span class="order-class">131</span><span class="contry-name long">Armenia</span><span class="value-data">6,600,000</span></li><li><span class="order-class">132</span><span class="contry-name long">Moldova</span><span class="value-data">6,200,000</span></li><li><span class="order-class">133</span><span class="contry-name long">Haiti</span><span class="value-data">6,200,000</span></li><li><span class="order-class">134</span><span class="contry-name long">Central African Republic</span><span class="value-data">5,600,000</span></li><li><span class="order-class">135</span><span class="contry-name long">Congo</span><span class="value-data">5,600,000</span></li><li><span class="order-class">136</span><span class="contry-name long">Jamaica</span><span class="value-data">5,200,000</span></li><li><span class="order-class">137</span><span class="contry-name long">Liberia</span><span class="value-data">5,100,000</span></li><li><span class="order-class">138</span><span class="contry-name long">Cyprus</span><span class="value-data">4,800,000</span></li><li><span class="order-class">139</span><span class="contry-name long">Mauritius</span><span class="value-data">4,300,000</span></li><li><span class="order-class">140</span><span class="contry-name long">Bhutan</span><span class="value-data">3,600,000</span></li><li><span class="order-class">141</span><span class="contry-name long">Lesotho</span><span class="value-data">3,400,000</span></li><li><span class="order-class">142</span><span class="contry-name long">Réunion</span><span class="value-data">3,200,000</span></li><li><span class="order-class">143</span><span class="contry-name long">Eritrea</span><span class="value-data">2,600,000</span></li><li><span class="order-class">144</span><span class="contry-name long">Guinea-Bissau</span><span class="value-data">2,600,000</span></li><li><span class="order-class">145</span><span class="contry-name long">Fiji</span><span class="value-data">2,500,000</span></li><li><span class="order-class">146</span><span class="contry-name long">Guyana</span><span class="value-data">2,400,000</span></li><li><span class="order-class">147</span><span class="contry-name long">Montenegro</span><span class="value-data">2,300,000</span></li><li><span class="order-class">148</span><span class="contry-name long">Gambia</span><span class="value-data">1,800,000</span></li><li><span class="order-class">149</span><span class="contry-name long">Comoros</span><span class="value-data">700,000</span></li><li><span class="order-class">150</span><span class="contry-name long">Timor-Leste</span><span class="value-data">500,000</span></li>
+                  <li>10France330,000,000</li>
+                  <li>11United Kingdom310,000,000</li>
+                  <li>12Canada280,000,000</li>
+                  <li>13Italy280,000,000</li>
+                  <li>14Korea, Republic of280,000,000</li>
+                  <li>15Turkey250,000,000</li>
+                  <li>16Australia210,000,000</li>
+                  <li>17Iran, Islamic Republic of210,000,000</li>
+                  <li>18Nigeria200,000,000</li>
+                  <li>19Thailand180,000,000</li>
+                  <li>20South Africa170,000,000</li>
+                  <li>21Egypt170,000,000</li>
+                  <li>22Spain170,000,000</li>
+                  <li>23Poland170,000,000</li>
+                  <li>24Viet Nam150,000,000</li>
+                  <li>25Pakistan140,000,000</li>
+                  <li>26Ukraine130,000,000</li>
+                  <li>27Argentina130,000,000</li>
+                  <li>28Bangladesh110,000,000</li>
+                  <li>29Malaysia110,000,000</li>
+                  <li>30Venezuela, Bolivarian Republic of110,000,000</li>
+                  <li>31Philippines110,000,000</li>
+                  <li>32Ethiopia93,000,000</li>
+                  <li>33Colombia89,000,000</li>
+                  <li>34Netherlands88,000,000</li>
+                  <li>35Belgium82,000,000</li>
+                  <li>36Algeria81,000,000</li>
+                  <li>37Chile76,000,000</li>
+                  <li>38Myanmar76,000,000</li>
+                  <li>39Sweden69,000,000</li>
+                  <li>40Peru68,000,000</li>
+                  <li>41Uzbekistan66,000,000</li>
+                  <li>41Tanzania, United Republic of63,000,000</li>
+                  <li>42Iraq62,000,000</li>
+                  <li>44Romania59,000,000</li>
+                  <li>44Czech Republic55,000,000</li>
+                  <li>46Morocco55,000,000</li>
+                  <li>47Congo, Democratic Republic of54,000,000</li>
+                  <li>48Austria51,000,000</li>
+                  <li>49Ghana50,000,000</li>
+                  <li>50Greece49,000,000</li>
+                  <li>51Belarus48,000,000</li>
+                  <li>52Israel48,000,000</li>
+                  <li>53Switzerland46,000,000</li>
+                  <li>54Uganda45,000,000</li>
+                  <li>55Kenya45,000,000</li>
+                  <li>56Singapore42,000,000</li>
+                  <li>57Portugal41,000,000</li>
+                  <li>58Ecuador34,000,000</li>
+                  <li>59Syrian Arab Republic33,000,000</li>
+                  <li>60Finland32,000,000</li>
+                  <li>61Bolivia31,000,000</li>
+                  <li>62Denmark31,000,000</li>
+                  <li>63Hungary29,000,000</li>
+                  <li>64Korea, Democratic People's Republic of29,000,000</li>
+                  <li>65Guatemala28,000,000</li>
+                  <li>66Turkmenistan28,000,000</li>
+                  <li>67Sri Lanka28,000,000</li>
+                  <li>68Paraguay28,000,000</li>
+                  <li>69Nepal27,000,000</li>
+                  <li>70Niger27,000,000</li>
+                  <li>71Serbia26,000,000</li>
+                  <li>72Ireland25,000,000</li>
+                  <li>73Tunisia25,000,000</li>
+                  <li>74Cameroon25,000,000</li>
+                  <li>75Côte d'Ivoire25,000,000</li>
+                  <li>76New Zealand25,000,000</li>
+                  <li>77Oman25,000,000</li>
+                  <li>78Norway25,000,000</li>
+                  <li>79Yemen24,000,000</li>
+                  <li>80Bulgaria24,000,000</li>
+                  <li>81Afghanistan24,000,000</li>
+                  <li>82Libyan Arab Jamahiriya23,000,000</li>
+                  <li>83Mali23,000,000</li>
+                  <li>84Slovakia22,000,000</li>
+                  <li>85Madagascar22,000,000</li>
+                  <li>86Cuba22,000,000</li>
+                  <li>87Mozambique22,000,000</li>
+                  <li>88Azerbaijan22,000,000</li>
+                  <li>89Burkina Faso20,000,000</li>
+                  <li>90Angola19,000,000</li>
+                  <li>91Zimbabwe19,000,000</li>
+                  <li>92Chad18,000,000</li>
+                  <li>93Cambodia18,000,000</li>
+                  <li>94Lebanon18,000,000</li>
+                  <li>95Lithuania18,000,000</li>
+                  <li>96Mongolia17,000,000</li>
+                  <li>97Croatia17,000,000</li>
+                  <li>98Senegal17,000,000</li>
+                  <li>99Guinea16,000,000</li>
+                  <li>100Dominican Republic16,000,000</li>
+                  <li>101Jordan15,000,000</li>
+                  <li>102Benin14,000,000</li>
+                  <li>103Zambia14,000,000</li>
+                  <li>104Papua New Guinea14,000,000</li>
+                  <li>105Costa Rica14,000,000</li>
+                  <li>106Honduras13,000,000</li>
+                  <li>107El Salvador13,000,000</li>
+                  <li>108Latvia13,000,000</li>
+                  <li>109Malawi13,000,000</li>
+                  <li>110Somalia13,000,000</li>
+                  <li>111Slovenia12,000,000</li>
+                  <li>112Bosnia and Herzegovina12,000,000</li>
+                  <li>113Panama11,000,000</li>
+                  <li>114Trinidad and Tobago11,000,000</li>
+                  <li>115Kyrgyzstan10,000,000</li>
+                  <li>116Rwanda9,900,000</li>
+                  <li>117Uruguay9,900,000</li>
+                  <li>118Mauritania9,700,000</li>
+                  <li>119Estonia8,900,000</li>
+                  <li>120Nicaragua8,300,000</li>
+                  <li>121Luxembourg8,300,000</li>
+                  <li>122Lao People's Democratic Republic8,100,000</li>
+                  <li>123Botswana7,700,000</li>
+                  <li>124Burundi7,600,000</li>
+                  <li>125Togo7,500,000</li>
+                  <li>126Sierra Leone7,400,000</li>
+                  <li>127Tajikistan7,300,000</li>
+                  <li>128Albania7,000,000</li>
+                  <li>129Georgia6,900,000</li>
+                  <li>130Macedonia TFYR6,900,000</li>
+                  <li>131Armenia6,600,000</li>
+                  <li>132Moldova6,200,000</li>
+                  <li>133Haiti6,200,000</li>
+                  <li>134Central African Republic5,600,000</li>
+                  <li>135Congo5,600,000</li>
+                  <li>136Jamaica5,200,000</li>
+                  <li>137Liberia5,100,000</li>
+                  <li>138Cyprus4,800,000</li>
+                  <li>139Mauritius4,300,000</li>
+                  <li>140Bhutan3,600,000</li>
+                  <li>141Lesotho3,400,000</li>
+                  <li>142Réunion3,200,000</li>
+                  <li>143Eritrea2,600,000</li>
+                  <li>144Guinea-Bissau2,600,000</li>
+                  <li>145Fiji2,500,000</li>
+                  <li>146Guyana2,400,000</li>
+                  <li>147Montenegro2,300,000</li>
+                  <li>148Gambia1,800,000</li>
+                  <li>149Comoros700,000</li>
+                  <li>150Timor-Leste500,000</li>
                 </ul>
               </div>
             </div>
           </div>
+          </div>
           <div role="tabpanel" class="tab-pane" id="icon-3">
             <div class="col-md-12">
               <div class="w3-panel w3-yellow row">
+                <h4>COUNTRIES RANKED BY ECOLOGICAL FOOTPRINT PER CAPITA (in global hectares)</h4>
+                <hr>
+                <div class="panel panel-primary" style="color: #111!important; box-shadow: inset 0 0 5px 1px grey;">
               <ul style="list-style: none; padding: 0; height: 400px; overflow-y: scroll;">
                         <li>1 Luxembourg 15.8</li>
                         <li>2 Australia 9.3 </li>
                         <li>3 United States of America 8.2 </li>
-                        <li><span class="order-class">4</span><span class="contry-name">Canada</span><span class="value-data">8.2</span></li>
-                        <li><span class="order-class">5</span><span class="contry-name">Singapore</span><span class="value-data">8</span></li>
-                        <li><span class="order-class">6</span><span class="contry-name">Trinidad and Tobago</span><span class="value-data">7.9</span></li>
-                        <li><span class="order-class">7</span><span class="contry-name">Oman</span><span class="value-data">7.5</span></li>
-                        <li><span class="order-class">8</span><span class="contry-name">Belgium</span><span class="value-data">7.4</span></li>
-                        <li><span class="order-class">9</span><span class="contry-name">Sweden</span><span class="value-data">7.3</span></li>
-                        <li><span class="order-class">10</span><span class="contry-name">Estonia</span><span class="value-data">6.9</span></li>
-                        <li><span class="order-class">11</span><span class="contry-name">Latvia</span><span class="value-data">6.3</span></li>
-                        <li><span class="order-class">12</span><span class="contry-name">Israel</span><span class="value-data">6.2</span></li>
-                        <li><span class="order-class">13</span><span class="contry-name">Mongolia</span><span class="value-data">6.1</span></li>
-                        <li><span class="order-class">14</span><span class="contry-name">Austria</span><span class="value-data">6.1</span></li>
-                        <li><span class="order-class">15</span><span class="contry-name">Finland</span><span class="value-data">5.9</span></li>
-                        <li><span class="order-class">16</span><span class="contry-name">Lithuania</span><span class="value-data">5.8</span></li>
-                        <li><span class="order-class">17</span><span class="contry-name">Slovenia</span><span class="value-data">5.8</span></li>
-                        <li><span class="order-class">18</span><span class="contry-name">Switzerland</span><span class="value-data">5.8</span></li>
-                        <li><span class="order-class">19</span><span class="contry-name">Korea, Republic of</span><span class="value-data">5.7</span></li>
-                        <li><span class="order-class">20</span><span class="contry-name">Russian Federation</span><span class="value-data">5.7</span></li>
-                        <li><span class="order-class">21</span><span class="contry-name">New Zealand</span><span class="value-data">5.6</span></li>
-                        <li><span class="order-class">22</span><span class="contry-name">Ireland</span><span class="value-data">5.6</span></li>
-                        <li><span class="order-class">23</span><span class="contry-name">Denmark</span><span class="value-data">5.5</span></li>
-                        <li><span class="order-class">24</span><span class="contry-name">Turkmenistan</span><span class="value-data">5.5</span></li>
-                        <li><span class="order-class">25</span><span class="contry-name">Germany</span><span class="value-data">5.3</span></li>
-                        <li><span class="order-class">26</span><span class="contry-name">Netherlands</span><span class="value-data">5.3</span></li>
-                        <li><span class="order-class">27</span><span class="contry-name">Czech Republic</span><span class="value-data">5.2</span></li>
-                        <li><span class="order-class">28</span><span class="contry-name">France</span><span class="value-data">5.1</span></li>
-                        <li><span class="order-class">29</span><span class="contry-name">Belarus</span><span class="value-data">5.1</span></li>
-                        <li><span class="order-class">30</span><span class="contry-name">Japan</span><span class="value-data">5</span></li>
-                        <li><span class="order-class">31</span><span class="contry-name">Norway</span><span class="value-data">5</span></li>
-                        <li><span class="order-class">32</span><span class="contry-name">United Kingdom</span><span class="value-data">4.9</span></li>
-                        <li><span class="order-class">33</span><span class="contry-name">Bhutan</span><span class="value-data">4.8</span></li>
-                        <li><span class="order-class">34</span><span class="contry-name">Italy</span><span class="value-data">4.6</span></li>
-                        <li><span class="order-class">35</span><span class="contry-name">Poland</span><span class="value-data">4.4</span></li>
-                        <li><span class="order-class">36</span><span class="contry-name">Greece</span><span class="value-data">4.4</span></li>
-                        <li><span class="order-class">37</span><span class="contry-name">Chile</span><span class="value-data">4.4</span></li>
-                        <li><span class="order-class">38</span><span class="contry-name">Cyprus</span><span class="value-data">4.2</span></li>
-                        <li><span class="order-class">39</span><span class="contry-name">Paraguay</span><span class="value-data">4.2</span></li>
-                        <li><span class="order-class">40</span><span class="contry-name">Slovakia</span><span class="value-data">4.1</span></li>
-                        <li><span class="order-class">41</span><span class="contry-name">Croatia</span><span class="value-data">3.9</span></li>
-                        <li><span class="order-class">42</span><span class="contry-name">Portugal</span><span class="value-data">3.9</span></li>
-                        <li><span class="order-class">43</span><span class="contry-name">Lebanon</span><span class="value-data">3.8</span></li>
-                        <li><span class="order-class">44</span><span class="contry-name">Botswana</span><span class="value-data">3.8</span></li>
-                        <li><span class="order-class">45</span><span class="contry-name">Montenegro</span><span class="value-data">3.8</span></li>
-                        <li><span class="order-class">46</span><span class="contry-name">Malaysia</span><span class="value-data">3.7</span></li>
-                        <li><span class="order-class">47</span><span class="contry-name">Libyan Arab Jamahiriya</span><span class="value-data">3.7</span></li>
-                        <li><span class="order-class">48</span><span class="contry-name">Spain</span><span class="value-data">3.7</span></li>
-                        <li><span class="order-class">49</span><span class="contry-name">Réunion</span><span class="value-data">3.7</span></li>
-                        <li><span class="order-class">50</span><span class="contry-name">Venezuela, Bolivarian Republic of</span><span class="value-data">3.6</span></li>
-                        <li><span class="order-class">51</span><span class="contry-name">Mauritius</span><span class="value-data">3.5</span></li>
-                        <li><span class="order-class">52</span><span class="contry-name">China</span><span class="value-data">3.4</span></li>
-                        <li><span class="order-class">53</span><span class="contry-name">Turkey</span><span class="value-data">3.3</span></li>
-                        <li><span class="order-class">54</span><span class="contry-name">Bulgaria</span><span class="value-data">3.3</span></li>
-                        <li><span class="order-class">55</span><span class="contry-name">South Africa</span><span class="value-data">3.3</span></li>
-                        <li><span class="order-class">56</span><span class="contry-name">Macedonia TFYR</span><span class="value-data">3.3</span></li>
-                        <li><span class="order-class">57</span><span class="contry-name">Argentina</span><span class="value-data">3.1</span></li>
-                        <li><span class="order-class">58</span><span class="contry-name">Bosnia and Herzegovina</span><span class="value-data">3.1</span></li>
-                        <li><span class="order-class">59</span><span class="contry-name">Brazil</span><span class="value-data">3.1</span></li>
-                        <li><span class="order-class">60</span><span class="contry-name">Guyana</span><span class="value-data">3.1</span></li>
-                        <li><span class="order-class">61</span><span class="contry-name">Bolivia</span><span class="value-data">3</span></li>
-                        <li><span class="order-class">62</span><span class="contry-name">Hungary</span><span class="value-data">2.9</span></li>
-                        <li><span class="order-class">63</span><span class="contry-name">Uruguay</span><span class="value-data">2.9</span></li>
-                        <li><span class="order-class">64</span><span class="contry-name">Fiji</span><span class="value-data">2.9</span></li>
-                        <li><span class="order-class">65</span><span class="contry-name">Mexico</span><span class="value-data">2.9</span></li>
-                        <li><span class="order-class">66</span><span class="contry-name">Costa Rica</span><span class="value-data">2.8</span></li>
-                        <li><span class="order-class">67</span><span class="contry-name">Ukraine</span><span class="value-data">2.8</span></li>
-                        <li><span class="order-class">68</span><span class="contry-name">Iran, Islamic Republic of</span><span class="value-data">2.8</span></li>
-                        <li><span class="order-class">69</span><span class="contry-name">Panama</span><span class="value-data">2.8</span></li>
-                        <li><span class="order-class">70</span><span class="contry-name">Romania</span><span class="value-data">2.7</span></li>
-                        <li><span class="order-class">71</span><span class="contry-name">Serbia</span><span class="value-data">2.7</span></li>
-                        <li><span class="order-class">72</span><span class="contry-name">Thailand</span><span class="value-data">2.7</span></li>
-                        <li><span class="order-class">73</span><span class="contry-name">Mauritania</span><span class="value-data">2.5</span></li>
-                        <li><span class="order-class">74</span><span class="contry-name">Tunisia</span><span class="value-data">2.3</span></li>
-                        <li><span class="order-class">75</span><span class="contry-name">Uzbekistan</span><span class="value-data">2.3</span></li>
-                        <li><span class="order-class">76</span><span class="contry-name">Azerbaijan</span><span class="value-data">2.3</span></li>
-                        <li><span class="order-class">77</span><span class="contry-name">Peru</span><span class="value-data">2.3</span></li>
-                        <li><span class="order-class">78</span><span class="contry-name">Armenia</span><span class="value-data">2.2</span></li>
-                        <li><span class="order-class">79</span><span class="contry-name">Albania</span><span class="value-data">2.2</span></li>
-                        <li><span class="order-class">80</span><span class="contry-name">Ecuador</span><span class="value-data">2.2</span></li>
-                        <li><span class="order-class">81</span><span class="contry-name">Egypt</span><span class="value-data">2.2</span></li>
-                        <li><span class="order-class">82</span><span class="contry-name">Algeria</span><span class="value-data">2.1</span></li>
-                        <li><span class="order-class">83</span><span class="contry-name">Jordan</span><span class="value-data">2.1</span></li>
-                        <li><span class="order-class">84</span><span class="contry-name">El Salvador</span><span class="value-data">2.1</span></li>
-                        <li><span class="order-class">85</span><span class="contry-name">Ghana</span><span class="value-data">2</span></li>
-                        <li><span class="order-class">86</span><span class="contry-name">Cuba</span><span class="value-data">2</span></li>
-                        <li><span class="order-class">87</span><span class="contry-name">Kyrgyzstan</span><span class="value-data">1.9</span></li>
-                        <li><span class="order-class">88</span><span class="contry-name">Papua New Guinea</span><span class="value-data">1.9</span></li>
-                        <li><span class="order-class">89</span><span class="contry-name">Jamaica</span><span class="value-data">1.9</span></li>
-                        <li><span class="order-class">90</span><span class="contry-name">Guatemala</span><span class="value-data">1.9</span></li>
-                        <li><span class="order-class">91</span><span class="contry-name">Iraq</span><span class="value-data">1.9</span></li>
-                        <li><span class="order-class">92</span><span class="contry-name">Colombia</span><span class="value-data">1.9</span></li>
-                        <li><span class="order-class">93</span><span class="contry-name">Moldova</span><span class="value-data">1.8</span></li>
-                        <li><span class="order-class">94</span><span class="contry-name">Morocco</span><span class="value-data">1.7</span></li>
-                        <li><span class="order-class">95</span><span class="contry-name">Honduras</span><span class="value-data">1.7</span></li>
-                        <li><span class="order-class">96</span><span class="contry-name">Lesotho</span><span class="value-data">1.7</span></li>
-                        <li><span class="order-class">97</span><span class="contry-name">Viet Nam</span><span class="value-data">1.7</span></li>
-                        <li><span class="order-class">98</span><span class="contry-name">Georgia</span><span class="value-data">1.6</span></li>
-                        <li><span class="order-class">99</span><span class="contry-name">Indonesia</span><span class="value-data">1.6</span></li>
-                        <li><span class="order-class">100</span><span class="contry-name">Niger</span><span class="value-data">1.6</span></li>
-                        <li><span class="order-class">101</span><span class="contry-name">Dominican Republic</span><span class="value-data">1.5</span></li>
-                        <li><span class="order-class">102</span><span class="contry-name">Mali</span><span class="value-data">1.5</span></li>
-                        <li><span class="order-class">103</span><span class="contry-name">Guinea-Bissau</span><span class="value-data">1.5</span></li>
-                        <li><span class="order-class">104</span><span class="contry-name">Syrian Arab Republic</span><span class="value-data">1.5</span></li>
-                        <li><span class="order-class">105</span><span class="contry-name">Chad</span><span class="value-data">1.5</span></li>
-                        <li><span class="order-class">106</span><span class="contry-name">Myanmar</span><span class="value-data">1.4</span></li>
-                        <li><span class="order-class">107</span><span class="contry-name">Benin</span><span class="value-data">1.4</span></li>
-                        <li><span class="order-class">108</span><span class="contry-name">Guinea</span><span class="value-data">1.4</span></li>
-                        <li><span class="order-class">109</span><span class="contry-name">Nicaragua</span><span class="value-data">1.4</span></li>
-                        <li><span class="order-class">110</span><span class="contry-name">Zimbabwe</span><span class="value-data">1.4</span></li>
-                        <li><span class="order-class">111</span><span class="contry-name">Sri Lanka</span><span class="value-data">1.3</span></li>
-                        <li><span class="order-class">112</span><span class="contry-name">Tanzania, United Republic of</span><span class="value-data">1.3</span></li>
-                        <li><span class="order-class">113</span><span class="contry-name">Congo</span><span class="value-data">1.3</span></li>
-                        <li><span class="order-class">114</span><span class="contry-name">Côte d'Ivoire</span><span class="value-data">1.3</span></li>
-                        <li><span class="order-class">115</span><span class="contry-name">Uganda</span><span class="value-data">1.2</span></li>
-                        <li><span class="order-class">116</span><span class="contry-name">Sierra Leone</span><span class="value-data">1.2</span></li><li><span class="order-class">117</span><span class="contry-name">Somalia</span><span class="value-data">1.2</span></li><li><span class="order-class">118</span><span class="contry-name">Central African Republic</span><span class="value-data">1.2</span></li><li><span class="order-class">119</span><span class="contry-name">Lao People's Democratic Republic</span><span class="value-data">1.2</span></li><li><span class="order-class">120</span><span class="contry-name">Burkina Faso</span><span class="value-data">1.2</span></li><li><span class="order-class">121</span><span class="contry-name">Senegal</span><span class="value-data">1.2</span></li><li><span class="order-class">122</span><span class="contry-name">Cambodia</span><span class="value-data">1.2</span></li><li><span class="order-class">123</span><span class="contry-name">Liberia</span><span class="value-data">1.2</span></li><li><span class="order-class">124</span><span class="contry-name">Korea, Democratic People's Republic of</span><span class="value-data">1.2</span></li><li><span class="order-class">125</span><span class="contry-name">Cameroon</span><span class="value-data">1.2</span></li><li><span class="order-class">126</span><span class="contry-name">India</span><span class="value-data">1.2</span></li><li><span class="order-class">127</span><span class="contry-name">Nigeria</span><span class="value-data">1.2</span></li><li><span class="order-class">128</span><span class="contry-name">Togo</span><span class="value-data">1.1</span></li><li><span class="order-class">129</span><span class="contry-name">Philippines</span><span class="value-data">1.1</span></li><li><span class="order-class">130</span><span class="contry-name">Comoros</span><span class="value-data">1</span></li><li><span class="order-class">131</span><span class="contry-name">Yemen</span><span class="value-data">1</span></li><li><span class="order-class">132</span><span class="contry-name">Kenya</span><span class="value-data">1</span></li><li><span class="order-class">133</span><span class="contry-name">Gambia</span><span class="value-data">1</span></li><li><span class="order-class">134</span><span class="contry-name">Ethiopia</span><span class="value-data">1</span></li><li><span class="order-class">135</span><span class="contry-name">Zambia</span><span class="value-data">1</span></li><li><span class="order-class">136</span><span class="contry-name">Madagascar</span><span class="value-data">1</span></li><li><span class="order-class">137</span><span class="contry-name">Nepal</span><span class="value-data">1</span></li><li><span class="order-class">138</span><span class="contry-name">Angola</span><span class="value-data">0.9</span></li><li><span class="order-class">139</span><span class="contry-name">Tajikistan</span><span class="value-data">0.9</span></li><li><span class="order-class">140</span><span class="contry-name">Rwanda</span><span class="value-data">0.9</span></li><li><span class="order-class">141</span><span class="contry-name">Mozambique</span><span class="value-data">0.9</span></li><li><span class="order-class">142</span><span class="contry-name">Congo, Democratic Republic of</span><span class="value-data">0.8</span></li><li><span class="order-class">143</span><span class="contry-name">Malawi</span><span class="value-data">0.8</span></li><li><span class="order-class">144</span><span class="contry-name">Burundi</span><span class="value-data">0.8</span></li><li><span class="order-class">145</span><span class="contry-name">Pakistan</span><span class="value-data">0.8</span></li><li><span class="order-class">146</span><span class="contry-name">Afghanistan</span><span class="value-data">0.8</span></li><li><span class="order-class">147</span><span class="contry-name">Bangladesh</span><span class="value-data">0.7</span></li><li><span class="order-class">148</span><span class="contry-name">Haiti</span><span class="value-data">0.6</span></li><li><span class="order-class">149</span><span class="contry-name">Timor-Leste</span><span class="value-data">0.5</span></li><li><span class="order-class">150</span><span class="contry-name">Eritrea</span><span class="value-data">0.4</span></li>
-              </ul>
-              </div>
-            </div>
-          </div>
+                        <li>4 Canada 8.2</li>
+                        <li>5 Singapore 8</li>
+                        6Trinidad and Tobago7.9
+                        7Oman7.5
+                        8Belgium7.4
+                        9Sweden7.3
+                        10Estonia6.9
+                        11Latvia6.3
+                        12Israel6.2
+                        13Mongolia6.1
+                        14Austria6.1
+                        15Finland5.9
+                        16Lithuania5.8
+                        17Slovenia5.8
+                        18Switzerland5.8
+                        19Korea, Republic of5.7
+                        20Russian Federation5.7
+                        21New Zealand5.6
+                        22Ireland5.6
+                        23Denmark5.5
+                        24Turkmenistan5.5
+                        25Germany5.3
+                        26Netherlands5.3
+                        27Czech Republic5.2
+                        28France5.1
+                        29Belarus5.1
+                        30Japan5
+                        31Norway5
+                        32United Kingdom4.9
+                        33Bhutan4.8
+                        34Italy4.6
+                        35Poland4.4
+                        36Greece4.4
+                        37Chile4.4
+                        38Cyprus4.2
+                        39Paraguay4.2
+                        40Slovakia4.1
+                        41Croatia3.9
+                        42Portugal3.9
+                        43Lebanon3.8
+                        44Botswana3.8
+                        45Montenegro3.8
+                        46Malaysia3.7
+                        47Libyan Arab Jamahiriya3.7
+                        48Spain3.7
+                        49Réunion3.7
+                        50Venezuela, Bolivarian Republic of3.6
+                        51Mauritius3.5
+                        52China3.4
+                        53Turkey3.3
+                        54Bulgaria3.3
+                        55South Africa3.3
+                        56Macedonia TFYR3.3
+                        57Argentina3.1
+                        58Bosnia and Herzegovina3.1
+                        59Brazil3.1
+                        60Guyana3.1
+                        61Bolivia3
+                        62Hungary2.9
+                        63Uruguay2.9
+                        64Fiji2.9
+                        65Mexico2.9
+                        66Costa Rica2.8
+                        67Ukraine2.8
+                        68Iran, Islamic Republic of2.8
+                        69Panama2.8
+                        70Romania2.7
+                        71Serbia2.7
+                        72Thailand2.7
+                        73Mauritania2.5
+                        74Tunisia2.3
+                        75Uzbekistan2.3
+                        76Azerbaijan2.3
+                        77Peru2.3
+                        78Armenia2.2
+                        79Albania2.2
+                        80Ecuador2.2
+                        81Egypt2.2
+                        82Algeria2.1
+                        83Jordan2.1
+                        84El Salvador2.1
+                        85Ghana2
+                        86Cuba2
+                        87Kyrgyzstan1.9
+                        88Papua New Guinea1.9
+                        89Jamaica1.9
+                        90Guatemala1.9
+                        91Iraq1.9
+                        92Colombia1.9
+                        93Moldova1.8
+                        94Morocco1.7
+                        95Honduras1.7
+                        96Lesotho1.7
+                        97Viet Nam1.7
+                        98Georgia1.6
+                        99Indonesia1.6
+                        <li>100Niger1.6</li>
+                        <li>101Dominican Republic1.5</li>
+                        <li>102Mali1.5</li>
+                        <li>103Guinea-Bissau1.5</li>
+                        <li>104Syrian Arab Republic1.5</li>
+                        <li>105Chad1.5</li>
+                        <li>106Myanmar1.4</li>
+                        <li>107Benin1.4</li>
+                        <li>108Guinea1.4</li>
+                        <li>109Nicaragua1.4</li>
+                        <li>110Zimbabwe1.4</li>
+                        <li>111Sri Lanka1.3</li>
+                        <li>112Tanzania, United Republic of1.3</li>
+                        <li>113Congo1.3</li>
+                        <li>114Côte d'Ivoire1.3</li>
+                        <li>115Uganda1.2</li>
+                        <li>116Sierra Leone1.2</li>
+                        <li>117Somalia1.2</li>
+                        <li>118Central African Republic1.2</li>
+                        <li>119Lao People's Democratic Republic1.2</li>
+                        <li>120Burkina Faso1.2</li>
+                        <li>121Senegal1.2</li>
+                        <li>122Cambodia1.2</li>
+                        <li>123Liberia1.2</li>
+                        <li>124Korea, Democratic People's Republic of1.2</li>
+                        <li>125Cameroon1.2</li>
+                        <li>126India1.2</li>
+                        <li>127Nigeria1.2</li>
+                        <li>128Togo1.1</li>
+                        <li>129Philippines1.1</li>
+                        <li>130Comoros1</li>
+                        <li>131Yemen1</li>
+                        <li>132Kenya1</li>
+                        <li>133Gambia1</li>
+                        <li>134Ethiopia1</li>
+                        <li>135Zambia1</li>
+                        <li>136Madagascar1</li>
+                        <li>137Nepal1</li>
+                        <li>138Angola0.9</li>
+                        <li>139Tajikistan0.9</li>
+                        <li>140Rwanda0.9</li>
+                        <li>141Mozambique0.9</li>
+                        <li>142Congo, Democratic Republic of0.8</li>
+                        <li>143Malawi0.8</li>
+                        <li>144Burundi0.8</li>
+                        <li>145Pakistan0.8</li>
+                        <li>146Afghanistan0.8</li>
+                        <li>147Bangladesh0.7</li>
+                        <li>148Haiti0.6</li>
+                        <li>149Timor-Leste0.5</li>
+                        <li>150Eritrea0.4</li>
+                      </ul>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
           <div role="tabpanel" class="tab-pane" id="icon-4">
             <div class="col-md-12">
               <div class="w3-panel w3-green row">
+                <h4>COUNTRIES RANKED BY TOTAL BIOCAPACITY (in global hectares)</h4>
+                <hr>
+                <div class="panel panel-primary" style="color: #111!important; box-shadow: inset 0 0 5px 1px grey;">
               <ul style="list-style: none; padding: 0; height: 400px; overflow-y: scroll;">
-              <li><span class="order-class">1</span><span class="contry-name long">Brazil</span><span class="value-data">1,800,000,000</span></li>
-              <li><span class="order-class">2</span><span class="contry-name long">China</span><span class="value-data">1,300,000,000</span></li>
-              <li><span class="order-class">3</span><span class="contry-name long">United States of America</span><span class="value-data">1,200,000,000</span></li>
-              <li><span class="order-class">4</span><span class="contry-name long">Russian Federation</span><span class="value-data">970,000,000</span></li>
-              <li><span class="order-class">5</span><span class="contry-name long">India</span><span class="value-data">560,000,000</span></li>
-              <li><span class="order-class">6</span><span class="contry-name long">Canada</span><span class="value-data">560,000,000</span></li>
-              <li><span class="order-class">7</span><span class="contry-name long">Australia</span><span class="value-data">380,000,000</span></li>
-              <li><span class="order-class">8</span><span class="contry-name long">Indonesia</span><span class="value-data">310,000,000</span></li>
-              <li><span class="order-class">9</span><span class="contry-name long">Argentina</span><span class="value-data">280,000,000</span></li>
-              <li><span class="order-class">10</span><span class="contry-name long">Congo, Democratic Republic of</span><span class="value-data">200,000,000</span></li>
-              <li><span class="order-class">11</span><span class="contry-name long">France</span><span class="value-data">200,000,000</span></li>
-              <li><span class="order-class">12</span><span class="contry-name long">Germany</span><span class="value-data">190,000,000</span></li>
-              <li><span class="order-class">13</span><span class="contry-name long">Bolivia</span><span class="value-data">180,000,000</span></li>
-              <li><span class="order-class">14</span><span class="contry-name long">Colombia</span><span class="value-data">170,000,000</span></li>
-              <li><span class="order-class">15</span><span class="contry-name long">Mexico</span><span class="value-data">150,000,000</span></li>
-              <li><span class="order-class">16</span><span class="contry-name long">Peru</span><span class="value-data">120,000,000</span></li>
-              <li><span class="order-class">17</span><span class="contry-name long">Nigeria</span><span class="value-data">120,000,000</span></li>
-              <li><span class="order-class">18</span><span class="contry-name long">Turkey</span><span class="value-data">110,000,000</span></li>
-              <li><span class="order-class">19</span><span class="contry-name long">Ukraine</span><span class="value-data">100,000,000</span></li>
-              <li><span class="order-class">20</span><span class="contry-name long">Sweden</span><span class="value-data">100,000,000</span></li>
-              <li><span class="order-class">21</span><span class="contry-name long">Myanmar</span><span class="value-data">97,000,000</span></li>
-              <li><span class="order-class">22</span><span class="contry-name long">Japan</span><span class="value-data">91,000,000</span></li>
-              <li><span class="order-class">23</span><span class="contry-name long">Viet Nam</span><span class="value-data">90,000,000</span></li>
-              <li><span class="order-class">24</span><span class="contry-name long">Venezuela, Bolivarian Republic of</span><span class="value-data">83,000,000</span></li>
-              <li><span class="order-class">25</span><span class="contry-name long">Thailand</span><span class="value-data">83,000,000</span></li>
-              <li><span class="order-class">26</span><span class="contry-name long">United Kingdom</span><span class="value-data">83,000,000</span></li>
-              <li><span class="order-class">27</span><span class="contry-name long">Poland</span><span class="value-data">79,000,000</span></li>
-              <li><span class="order-class">28</span><span class="contry-name long">Finland</span><span class="value-data">73,000,000</span></li>
-              <li><span class="order-class">29</span><span class="contry-name long">Malaysia</span><span class="value-data">70,000,000</span></li><li><span class="order-class">30</span><span class="contry-name long">Paraguay</span><span class="value-data">70,000,000</span></li><li><span class="order-class">31</span><span class="contry-name long">Iran, Islamic Republic of</span><span class="value-data">69,000,000</span></li><li><span class="order-class">32</span><span class="contry-name long">Italy</span><span class="value-data">66,000,000</span></li><li><span class="order-class">33</span><span class="contry-name long">Chile</span><span class="value-data">63,000,000</span></li><li><span class="order-class">34</span><span class="contry-name long">Pakistan</span><span class="value-data">62,000,000</span></li><li><span class="order-class">35</span><span class="contry-name long">South Africa</span><span class="value-data">60,000,000</span></li><li><span class="order-class">36</span><span class="contry-name long">Madagascar</span><span class="value-data">59,000,000</span></li><li><span class="order-class">37</span><span class="contry-name long">Spain</span><span class="value-data">58,000,000</span></li><li><span class="order-class">38</span><span class="contry-name long">Bangladesh</span><span class="value-data">58,000,000</span></li><li><span class="order-class">39</span><span class="contry-name long">Ethiopia</span><span class="value-data">53,000,000</span></li><li><span class="order-class">40</span><span class="contry-name long">Angola</span><span class="value-data">53,000,000</span></li><li><span class="order-class">41</span><span class="contry-name long">Guyana</span><span class="value-data">53,000,000</span></li><li><span class="order-class">42</span><span class="contry-name long">Philippines</span><span class="value-data">53,000,000</span></li><li><span class="order-class">43</span><span class="contry-name long">Mozambique</span><span class="value-data">52,000,000</span></li><li><span class="order-class">44</span><span class="contry-name long">Tanzania, United Republic of</span><span class="value-data">52,000,000</span></li><li><span class="order-class">45</span><span class="contry-name long">Romania</span><span class="value-data">51,000,000</span></li><li><span class="order-class">46</span><span class="contry-name long">Congo</span><span class="value-data">47,000,000</span></li><li><span class="order-class">47</span><span class="contry-name long">New Zealand</span><span class="value-data">45,000,000</span></li><li><span class="order-class">48</span><span class="contry-name long">Egypt</span><span class="value-data">45,000,000</span></li><li><span class="order-class">49</span><span class="contry-name long">Mongolia</span><span class="value-data">44,000,000</span></li><li><span class="order-class">50</span><span class="contry-name long">Norway</span><span class="value-data">40,000,000</span></li><li><span class="order-class">51</span><span class="contry-name long">Cameroon</span><span class="value-data">37,000,000</span></li><li><span class="order-class">52</span><span class="contry-name long">Central African Republic</span><span class="value-data">36,000,000</span></li><li><span class="order-class">53</span><span class="contry-name long">Côte d'Ivoire</span><span class="value-data">35,000,000</span></li><li><span class="order-class">54</span><span class="contry-name long">Uruguay</span><span class="value-data">35,000,000</span></li><li><span class="order-class">55</span><span class="contry-name long">Ghana</span><span class="value-data">34,000,000</span></li><li><span class="order-class">56</span><span class="contry-name long">Belarus</span><span class="value-data">34,000,000</span></li><li><span class="order-class">57</span><span class="contry-name long">Ecuador</span><span class="value-data">34,000,000</span></li><li><span class="order-class">58</span><span class="contry-name long">Korea, Republic of</span><span class="value-data">33,000,000</span></li><li><span class="order-class">59</span><span class="contry-name long">Zambia</span><span class="value-data">31,000,000</span></li><li><span class="order-class">60</span><span class="contry-name long">Papua New Guinea</span><span class="value-data">28,000,000</span></li><li><span class="order-class">61</span><span class="contry-name long">Denmark</span><span class="value-data">27,000,000</span></li><li><span class="order-class">62</span><span class="contry-name long">Uzbekistan</span><span class="value-data">26,000,000</span></li><li><span class="order-class">63</span><span class="contry-name long">Czech Republic</span><span class="value-data">26,000,000</span></li><li><span class="order-class">64</span><span class="contry-name long">Austria</span><span class="value-data">26,000,000</span></li><li><span class="order-class">65</span><span class="contry-name long">Chad</span><span class="value-data">25,000,000</span></li><li><span class="order-class">66</span><span class="contry-name long">Guinea</span><span class="value-data">24,000,000</span></li><li><span class="order-class">67</span><span class="contry-name long">Mali</span><span class="value-data">23,000,000</span></li><li><span class="order-class">68</span><span class="contry-name long">Morocco</span><span class="value-data">23,000,000</span></li><li><span class="order-class">69</span><span class="contry-name long">Algeria</span><span class="value-data">23,000,000</span></li><li><span class="order-class">70</span><span class="contry-name long">Kenya</span><span class="value-data">22,000,000</span></li><li><span class="order-class">71</span><span class="contry-name long">Hungary</span><span class="value-data">22,000,000</span></li><li><span class="order-class">72</span><span class="contry-name long">Uganda</span><span class="value-data">21,000,000</span></li><li><span class="order-class">73</span><span class="contry-name long">Niger</span><span class="value-data">21,000,000</span></li><li><span class="order-class">74</span><span class="contry-name long">Bulgaria</span><span class="value-data">21,000,000</span></li><li><span class="order-class">75</span><span class="contry-name long">Latvia</span><span class="value-data">20,000,000</span></li><li><span class="order-class">76</span><span class="contry-name long">Netherlands</span><span class="value-data">19,000,000</span></li><li><span class="order-class">77</span><span class="contry-name long">Greece</span><span class="value-data">18,000,000</span></li><li><span class="order-class">78</span><span class="contry-name long">Lithuania</span><span class="value-data">17,000,000</span></li><li><span class="order-class">79</span><span class="contry-name long">Ireland</span><span class="value-data">17,000,000</span></li><li><span class="order-class">80</span><span class="contry-name long">Mauritania</span><span class="value-data">17,000,000</span></li><li><span class="order-class">81</span><span class="contry-name long">Nepal</span><span class="value-data">16,000,000</span></li><li><span class="order-class">82</span><span class="contry-name long">Cambodia</span><span class="value-data">16,000,000</span></li><li><span class="order-class">83</span><span class="contry-name long">Burkina Faso</span><span class="value-data">16,000,000</span></li><li><span class="order-class">84</span><span class="contry-name long">Portugal</span><span class="value-data">16,000,000</span></li><li><span class="order-class">85</span><span class="contry-name long">Guatemala</span><span class="value-data">15,000,000</span></li><li><span class="order-class">86</span><span class="contry-name long">Korea, Democratic People's Republic of</span><span class="value-data">15,000,000</span></li><li><span class="order-class">87</span><span class="contry-name long">Afghanistan</span><span class="value-data">15,000,000</span></li><li><span class="order-class">88</span><span class="contry-name long">Slovakia</span><span class="value-data">15,000,000</span></li><li><span class="order-class">89</span><span class="contry-name long">Turkmenistan</span><span class="value-data">14,000,000</span></li><li><span class="order-class">90</span><span class="contry-name long">Senegal</span><span class="value-data">14,000,000</span></li><li><span class="order-class">91</span><span class="contry-name long">Honduras</span><span class="value-data">14,000,000</span></li><li><span class="order-class">92</span><span class="contry-name long">Estonia</span><span class="value-data">14,000,000</span></li><li><span class="order-class">93</span><span class="contry-name long">Nicaragua</span><span class="value-data">14,000,000</span></li><li><span class="order-class">94</span><span class="contry-name long">Syrian Arab Republic</span><span class="value-data">13,000,000</span></li><li><span class="order-class">95</span><span class="contry-name long">Belgium</span><span class="value-data">13,000,000</span></li><li><span class="order-class">96</span><span class="contry-name long">Somalia</span><span class="value-data">13,000,000</span></li><li><span class="order-class">97</span><span class="contry-name long">Croatia</span><span class="value-data">12,000,000</span></li><li><span class="order-class">98</span><span class="contry-name long">Serbia</span><span class="value-data">12,000,000</span></li><li><span class="order-class">99</span><span class="contry-name long">Yemen</span><span class="value-data">12,000,000</span></li><li><span class="order-class">100</span><span class="contry-name long">Panama</span><span class="value-data">11,000,000</span></li><li><span class="order-class">101</span><span class="contry-name long">Liberia</span><span class="value-data">11,000,000</span></li><li><span class="order-class">102</span><span class="contry-name long">Lao People's Democratic Republic</span><span class="value-data">11,000,000</span></li><li><span class="order-class">103</span><span class="contry-name long">Malawi</span><span class="value-data">11,000,000</span></li><li><span class="order-class">104</span><span class="contry-name long">Switzerland</span><span class="value-data">10,000,000</span></li><li><span class="order-class">105</span><span class="contry-name long">Tunisia</span><span class="value-data">10,000,000</span></li><li><span class="order-class">106</span><span class="contry-name long">Iraq</span><span class="value-data">9,400,000</span></li><li><span class="order-class">107</span><span class="contry-name long">Sri Lanka</span><span class="value-data">9,300,000</span></li><li><span class="order-class">108</span><span class="contry-name long">Benin</span><span class="value-data">8,800,000</span></li><li><span class="order-class">109</span><span class="contry-name long">Cuba</span><span class="value-data">8,600,000</span></li><li><span class="order-class">110</span><span class="contry-name long">Zimbabwe</span><span class="value-data">8,500,000</span></li><li><span class="order-class">111</span><span class="contry-name long">Eritrea</span><span class="value-data">8,000,000</span></li><li><span class="order-class">112</span><span class="contry-name long">Azerbaijan</span><span class="value-data">7,900,000</span></li><li><span class="order-class">113</span><span class="contry-name long">Sierra Leone</span><span class="value-data">7,400,000</span></li><li><span class="order-class">114</span><span class="contry-name long">Costa Rica</span><span class="value-data">7,400,000</span></li><li><span class="order-class">115</span><span class="contry-name long">Kyrgyzstan</span><span class="value-data">7,100,000</span></li><li><span class="order-class">116</span><span class="contry-name long">Botswana</span><span class="value-data">7,000,000</span></li><li><span class="order-class">117</span><span class="contry-name long">Oman</span><span class="value-data">6,300,000</span></li><li><span class="order-class">118</span><span class="contry-name long">Bosnia and Herzegovina</span><span class="value-data">6,300,000</span></li><li><span class="order-class">119</span><span class="contry-name long">Rwanda</span><span class="value-data">6,200,000</span></li><li><span class="order-class">120</span><span class="contry-name long">Dominican Republic</span><span class="value-data">5,700,000</span></li><li><span class="order-class">121</span><span class="contry-name long">Georgia</span><span class="value-data">5,100,000</span></li><li><span class="order-class">122</span><span class="contry-name long">Guinea-Bissau</span><span class="value-data">5,000,000</span></li><li><span class="order-class">123</span><span class="contry-name long">Slovenia</span><span class="value-data">4,800,000</span></li><li><span class="order-class">124</span><span class="contry-name long">Libyan Arab Jamahiriya</span><span class="value-data">4,300,000</span></li><li><span class="order-class">125</span><span class="contry-name long">Tajikistan</span><span class="value-data">4,200,000</span></li><li><span class="order-class">126</span><span class="contry-name long">Bhutan</span><span class="value-data">3,900,000</span></li><li><span class="order-class">127</span><span class="contry-name long">El Salvador</span><span class="value-data">3,900,000</span></li><li><span class="order-class">128</span><span class="contry-name long">Albania</span><span class="value-data">3,700,000</span></li><li><span class="order-class">129</span><span class="contry-name long">Togo</span><span class="value-data">3,500,000</span></li><li><span class="order-class">130</span><span class="contry-name long">Macedonia TFYR</span><span class="value-data">3,200,000</span></li><li><span class="order-class">131</span><span class="contry-name long">Burundi</span><span class="value-data">3,100,000</span></li><li><span class="order-class">132</span><span class="contry-name long">Moldova</span><span class="value-data">2,800,000</span></li><li><span class="order-class">133</span><span class="contry-name long">Haiti</span><span class="value-data">2,700,000</span></li><li><span class="order-class">134</span><span class="contry-name long">Israel</span><span class="value-data">2,700,000</span></li><li><span class="order-class">135</span><span class="contry-name long">Armenia</span><span class="value-data">2,600,000</span></li><li><span class="order-class">136</span><span class="contry-name long">Trinidad and Tobago</span><span class="value-data">2,100,000</span></li><li><span class="order-class">137</span><span class="contry-name long">Fiji</span><span class="value-data">2,100,000</span></li><li><span class="order-class">138</span><span class="contry-name long">Montenegro</span><span class="value-data">2,000,000</span></li><li><span class="order-class">139</span><span class="contry-name long">Timor-Leste</span><span class="value-data">2,000,000</span></li><li><span class="order-class">140</span><span class="contry-name long">Lesotho</span><span class="value-data">1,600,000</span></li><li><span class="order-class">141</span><span class="contry-name long">Lebanon</span><span class="value-data">1,500,000</span></li><li><span class="order-class">142</span><span class="contry-name long">Jordan</span><span class="value-data">1,500,000</span></li><li><span class="order-class">143</span><span class="contry-name long">Gambia</span><span class="value-data">1,500,000</span></li><li><span class="order-class">144</span><span class="contry-name long">Jamaica</span><span class="value-data">1,200,000</span></li><li><span class="order-class">145</span><span class="contry-name long">Luxembourg</span><span class="value-data">900,000</span></li><li><span class="order-class">146</span><span class="contry-name long">Mauritius</span><span class="value-data">900,000</span></li><li><span class="order-class">147</span><span class="contry-name long">Cyprus</span><span class="value-data">400,000</span></li><li><span class="order-class">148</span><span class="contry-name long">Singapore</span><span class="value-data">300,000</span></li><li><span class="order-class">149</span><span class="contry-name long">Comoros</span><span class="value-data">200,000</span></li><li><span class="order-class">150</span><span class="contry-name long">Réunion</span><span class="value-data">200,000</span></li>
-              </ul>
-              </div>
+              <li>1Brazil1,800,000,000</li>
+              <li>2China1,300,000,000</li>
+              <li>3United States of America1,200,000,000</li>
+              4Russian Federation970,000,000
+              5India560,000,000
+              6Canada560,000,000
+              7Australia380,000,000
+              8Indonesia310,000,000
+              9Argentina280,000,000
+              10Congo, Democratic Republic of200,000,000
+              11France200,000,000
+              12Germany190,000,000
+              13Bolivia180,000,000
+              14Colombia170,000,000
+              15Mexico150,000,000
+              16Peru120,000,000
+              17Nigeria120,000,000
+              18Turkey110,000,000
+              19Ukraine100,000,000
+              20Sweden100,000,000
+              21Myanmar97,000,000
+              22Japan91,000,000
+              23Viet Nam90,000,000
+              24Venezuela, Bolivarian Republic of83,000,000
+              25Thailand83,000,000
+              26United Kingdom83,000,000
+              27Poland79,000,000
+              28Finland73,000,000
+              29Malaysia70,000,000
+              30Paraguay70,000,000
+              31Iran, Islamic Republic of69,000,000
+              32Italy66,000,000
+              33Chile63,000,000
+              34Pakistan62,000,000
+              35South Africa60,000,000
+              36Madagascar59,000,000
+              37Spain58,000,000
+              38Bangladesh58,000,000
+              39Ethiopia53,000,000
+              40Angola53,000,000
+              41Guyana53,000,000
+              42Philippines53,000,000
+              43Mozambique52,000,000
+              44Tanzania, United Republic of52,000,000
+              45Romania51,000,000
+              46Congo47,000,000
+              47New Zealand45,000,000
+              48Egypt45,000,000
+              49Mongolia44,000,000
+              50Norway40,000,000
+              51Cameroon37,000,000
+              52Central African Republic36,000,000
+              53Côte d'Ivoire35,000,000
+              54Uruguay35,000,000
+              55Ghana34,000,000
+              56Belarus34,000,000
+              57Ecuador34,000,000
+              58Korea, Republic of33,000,000
+              59Zambia31,000,000
+              60Papua New Guinea28,000,000
+              61Denmark27,000,000
+              62Uzbekistan26,000,000
+              63Czech Republic26,000,000
+              64Austria26,000,000
+              65Chad25,000,000
+              66Guinea24,000,000
+              67Mali23,000,000
+              68Morocco23,000,000
+              69Algeria23,000,000
+              70Kenya22,000,000
+              71Hungary22,000,000
+              72Uganda21,000,000
+              73Niger21,000,000
+              74Bulgaria21,000,000
+              75Latvia20,000,000
+              76Netherlands19,000,000
+              77Greece18,000,000
+              78Lithuania17,000,000
+              79Ireland17,000,000
+              80Mauritania17,000,000
+              81Nepal16,000,000
+              82Cambodia16,000,000
+              83Burkina Faso16,000,000
+              84Portugal16,000,000
+              85Guatemala15,000,000
+              86Korea, Democratic People's Republic of15,000,000
+              87Afghanistan15,000,000
+              88Slovakia15,000,000
+              89Turkmenistan14,000,000
+              90Senegal14,000,000
+              91Honduras14,000,000
+              92Estonia14,000,000
+              93Nicaragua14,000,000
+              94Syrian Arab Republic13,000,000
+              95Belgium13,000,000
+              96Somalia13,000,000
+              97Croatia12,000,000
+              98Serbia12,000,000
+              99Yemen12,000,000
+              100Panama11,000,000
+              101Liberia11,000,000
+              102Lao People's Democratic Republic11,000,000
+              103Malawi11,000,000
+              104Switzerland10,000,000
+              105Tunisia10,000,000
+              106Iraq9,400,000
+              107Sri Lanka9,300,000
+              108Benin8,800,000
+              109Cuba8,600,000
+              110Zimbabwe8,500,000
+              111Eritrea8,000,000
+              112Azerbaijan7,900,000
+              113Sierra Leone7,400,000
+              114Costa Rica7,400,000
+              115Kyrgyzstan7,100,000
+              116Botswana7,000,000
+              117Oman6,300,000
+              118Bosnia and Herzegovina6,300,000
+              119Rwanda6,200,000
+              120Dominican Republic5,700,000
+              121Georgia5,100,000
+              122Guinea-Bissau5,000,000
+              123Slovenia4,800,000
+              124Libyan Arab Jamahiriya4,300,000
+              125Tajikistan4,200,000
+              126Bhutan3,900,000
+              127El Salvador3,900,000
+              128Albania3,700,000
+              129Togo3,500,000
+              130Macedonia TFYR3,200,000
+              131Burundi3,100,000
+              132Moldova2,800,000
+              133Haiti2,700,000
+              134Israel2,700,000
+              135Armenia2,600,000
+              136Trinidad and Tobago2,100,000
+              137Fiji2,100,000
+              138Montenegro2,000,000
+              139Timor-Leste2,000,000
+              140Lesotho1,600,000
+              141Lebanon1,500,000
+              142Jordan1,500,000
+              143Gambia1,500,000
+              144Jamaica1,200,000
+              145Luxembourg900,000
+              146Mauritius900,000
+              147Cyprus400,000
+              148Singapore300,000
+              149Comoros200,000
+              <li>150Réunion200,000</li>
             </div>
+          </div>
           </div>
 
            <div role="tabpanel" class="tab-pane" id="icon-5">
             <div class="col-md-12">
               <div class="w3-panel w3-green row">
+                <h4>COUNTRIES RANKED BY BIOCAPACITY PER CAPITA (in global hectares)</h4>
+                <hr>
+                <div class="panel panel-primary" style="color: #111!important; box-shadow: inset 0 0 5px 1px grey;">
               <ul style="list-style: none; padding: 0; height: 400px; overflow-y: scroll;">
-                <li><span class="order-class">1</span><span class="contry-name">Guyana</span><span class="value-data">66.6</span></li>
-                <li><span class="order-class">2</span><span class="contry-name">Bolivia</span><span class="value-data">16.7</span></li>
-                <li><span class="order-class">3</span><span class="contry-name">Australia</span><span class="value-data">16.6</span></li>
-                <li><span class="order-class">4</span><span class="contry-name">Canada</span><span class="value-data">16</span></li>
-                <li><span class="order-class">5</span><span class="contry-name">Mongolia</span><span class="value-data">15.7</span></li>
-                <li><span class="order-class">6</span><span class="contry-name">Finland</span><span class="value-data">13.4</span></li>
-                <li><span class="order-class">7</span><span class="contry-name">Congo</span><span class="value-data">10.9</span></li>
-                <li><span class="order-class">8</span><span class="contry-name">Sweden</span><span class="value-data">10.6</span></li>
-                <li><span class="order-class">9</span><span class="contry-name">Estonia</span><span class="value-data">10.5</span></li>
-                <li><span class="order-class">10</span><span class="contry-name">Paraguay</span><span class="value-data">10.5</span></li>
-                <li><span class="order-class">11</span><span class="contry-name">Uruguay</span><span class="value-data">10.3</span></li>
-                <li><span class="order-class">12</span><span class="contry-name">New Zealand</span><span class="value-data">10.1</span></li>
-                <li><span class="order-class">13</span><span class="contry-name">Latvia</span><span class="value-data">9.6</span></li>
-                <li><span class="order-class">14</span><span class="contry-name">Brazil</span><span class="value-data">9.1</span></li>
-                <li><span class="order-class">15</span><span class="contry-name">Norway</span><span class="value-data">8.2</span></li>
-                <li><span class="order-class">16</span><span class="contry-name">Central African Republic</span><span class="value-data">7.9</span></li>
-                <li><span class="order-class">17</span><span class="contry-name">Argentina</span><span class="value-data">6.9</span></li><li><span class="order-class">18</span><span class="contry-name">Russian Federation</span><span class="value-data">6.8</span></li><li><span class="order-class">19</span><span class="contry-name">Lithuania</span><span class="value-data">5.7</span></li><li><span class="order-class">20</span><span class="contry-name">Bhutan</span><span class="value-data">5.3</span></li><li><span class="order-class">21</span><span class="contry-name">Denmark</span><span class="value-data">4.8</span></li><li><span class="order-class">22</span><span class="contry-name">Mauritania</span><span class="value-data">4.5</span></li><li><span class="order-class">23</span><span class="contry-name">Peru</span><span class="value-data">4</span></li><li><span class="order-class">24</span><span class="contry-name">Papua New Guinea</span><span class="value-data">3.9</span></li><li><span class="order-class">25</span><span class="contry-name">United States of America</span><span class="value-data">3.8</span></li><li><span class="order-class">26</span><span class="contry-name">Ireland</span><span class="value-data">3.7</span></li><li><span class="order-class">27</span><span class="contry-name">Belarus</span><span class="value-data">3.6</span></li><li><span class="order-class">28</span><span class="contry-name">Chile</span><span class="value-data">3.6</span></li><li><span class="order-class">29</span><span class="contry-name">Colombia</span><span class="value-data">3.6</span></li><li><span class="order-class">30</span><span class="contry-name">Botswana</span><span class="value-data">3.5</span></li><li><span class="order-class">31</span><span class="contry-name">Montenegro</span><span class="value-data">3.2</span></li><li><span class="order-class">32</span><span class="contry-name">France</span><span class="value-data">3.1</span></li><li><span class="order-class">33</span><span class="contry-name">Austria</span><span class="value-data">3.1</span></li><li><span class="order-class">34</span><span class="contry-name">Congo, Democratic Republic of</span><span class="value-data">3.1</span></li><li><span class="order-class">35</span><span class="contry-name">Guinea-Bissau</span><span class="value-data">3</span></li><li><span class="order-class">36</span><span class="contry-name">Panama</span><span class="value-data">2.9</span></li><li><span class="order-class">37</span><span class="contry-name">Bulgaria</span><span class="value-data">2.9</span></li><li><span class="order-class">38</span><span class="contry-name">Croatia</span><span class="value-data">2.8</span></li><li><span class="order-class">39</span><span class="contry-name">Turkmenistan</span><span class="value-data">2.8</span></li><li><span class="order-class">40</span><span class="contry-name">Venezuela, Bolivarian Republic of</span><span class="value-data">2.8</span></li><li><span class="order-class">41</span><span class="contry-name">Slovakia</span><span class="value-data">2.7</span></li><li><span class="order-class">42</span><span class="contry-name">Madagascar</span><span class="value-data">2.6</span></li><li><span class="order-class">43</span><span class="contry-name">Liberia</span><span class="value-data">2.6</span></li><li><span class="order-class">44</span><span class="contry-name">Angola</span><span class="value-data">2.6</span></li><li><span class="order-class">45</span><span class="contry-name">Czech Republic</span><span class="value-data">2.5</span></li><li><span class="order-class">46</span><span class="contry-name">Malaysia</span><span class="value-data">2.4</span></li><li><span class="order-class">47</span><span class="contry-name">Fiji</span><span class="value-data">2.4</span></li><li><span class="order-class">48</span><span class="contry-name">Slovenia</span><span class="value-data">2.4</span></li><li><span class="order-class">49</span><span class="contry-name">Romania</span><span class="value-data">2.3</span></li><li><span class="order-class">50</span><span class="contry-name">Germany</span><span class="value-data">2.3</span></li><li><span class="order-class">51</span><span class="contry-name">Ukraine</span><span class="value-data">2.3</span></li><li><span class="order-class">52</span><span class="contry-name">Nicaragua</span><span class="value-data">2.3</span></li><li><span class="order-class">53</span><span class="contry-name">Zambia</span><span class="value-data">2.2</span></li><li><span class="order-class">54</span><span class="contry-name">Ecuador</span><span class="value-data">2.2</span></li><li><span class="order-class">55</span><span class="contry-name">Hungary</span><span class="value-data">2.2</span></li><li><span class="order-class">56</span><span class="contry-name">Guinea</span><span class="value-data">2.1</span></li><li><span class="order-class">57</span><span class="contry-name">Poland</span><span class="value-data">2.1</span></li><li><span class="order-class">58</span><span class="contry-name">Mozambique</span><span class="value-data">2.1</span></li><li><span class="order-class">59</span><span class="contry-name">Chad</span><span class="value-data">2</span></li><li><span class="order-class">60</span><span class="contry-name">Oman</span><span class="value-data">1.9</span></li><li><span class="order-class">61</span><span class="contry-name">Myanmar</span><span class="value-data">1.8</span></li><li><span class="order-class">62</span><span class="contry-name">Côte d'Ivoire</span><span class="value-data">1.8</span></li><li><span class="order-class">63</span><span class="contry-name">Timor-Leste</span><span class="value-data">1.8</span></li><li><span class="order-class">64</span><span class="contry-name">Honduras</span><span class="value-data">1.8</span></li><li><span class="order-class">65</span><span class="contry-name">Cameroon</span><span class="value-data">1.7</span></li><li><span class="order-class">66</span><span class="contry-name">Luxembourg</span><span class="value-data">1.7</span></li><li><span class="order-class">67</span><span class="contry-name">Bosnia and Herzegovina</span><span class="value-data">1.6</span></li><li><span class="order-class">68</span><span class="contry-name">Lao People's Democratic Republic</span><span class="value-data">1.6</span></li><li><span class="order-class">69</span><span class="contry-name">Greece</span><span class="value-data">1.6</span></li><li><span class="order-class">70</span><span class="contry-name">Mali</span><span class="value-data">1.6</span></li><li><span class="order-class">71</span><span class="contry-name">Trinidad and Tobago</span><span class="value-data">1.6</span></li><li><span class="order-class">72</span><span class="contry-name">Costa Rica</span><span class="value-data">1.5</span></li><li><span class="order-class">73</span><span class="contry-name">Turkey</span><span class="value-data">1.5</span></li><li><span class="order-class">74</span><span class="contry-name">Portugal</span><span class="value-data">1.5</span></li><li><span class="order-class">75</span><span class="contry-name">Macedonia TFYR</span><span class="value-data">1.5</span></li><li><span class="order-class">76</span><span class="contry-name">Ghana</span><span class="value-data">1.4</span></li><li><span class="order-class">77</span><span class="contry-name">United Kingdom</span><span class="value-data">1.3</span></li><li><span class="order-class">78</span><span class="contry-name">Switzerland</span><span class="value-data">1.3</span></li><li><span class="order-class">79</span><span class="contry-name">Kyrgyzstan</span><span class="value-data">1.3</span></li><li><span class="order-class">80</span><span class="contry-name">Eritrea</span><span class="value-data">1.3</span></li><li><span class="order-class">81</span><span class="contry-name">Mexico</span><span class="value-data">1.3</span></li><li><span class="order-class">82</span><span class="contry-name">Somalia</span><span class="value-data">1.3</span></li><li><span class="order-class">83</span><span class="contry-name">Indonesia</span><span class="value-data">1.3</span></li><li><span class="order-class">84</span><span class="contry-name">Spain</span><span class="value-data">1.3</span></li><li><span class="order-class">85</span><span class="contry-name">Serbia</span><span class="value-data">1.3</span></li><li><span class="order-class">86</span><span class="contry-name">Thailand</span><span class="value-data">1.2</span></li><li><span class="order-class">87</span><span class="contry-name">Niger</span><span class="value-data">1.2</span></li><li><span class="order-class">88</span><span class="contry-name">Sierra Leone</span><span class="value-data">1.2</span></li><li><span class="order-class">89</span><span class="contry-name">Belgium</span><span class="value-data">1.2</span></li><li><span class="order-class">90</span><span class="contry-name">Albania</span><span class="value-data">1.2</span></li><li><span class="order-class">91</span><span class="contry-name">Netherlands</span><span class="value-data">1.2</span></li><li><span class="order-class">92</span><span class="contry-name">Georgia</span><span class="value-data">1.2</span></li><li><span class="order-class">93</span><span class="contry-name">South Africa</span><span class="value-data">1.2</span></li><li><span class="order-class">94</span><span class="contry-name">Cambodia</span><span class="value-data">1.1</span></li><li><span class="order-class">95</span><span class="contry-name">Italy</span><span class="value-data">1.1</span></li><li><span class="order-class">96</span><span class="contry-name">Tanzania, United Republic of</span><span class="value-data">1.1</span></li><li><span class="order-class">97</span><span class="contry-name">Senegal</span><span class="value-data">1.1</span></li><li><span class="order-class">98</span><span class="contry-name">Viet Nam</span><span class="value-data">1</span></li><li><span class="order-class">99</span><span class="contry-name">Guatemala</span><span class="value-data">1</span></li><li><span class="order-class">100</span><span class="contry-name">Burkina Faso</span><span class="value-data">1</span></li><li><span class="order-class">101</span><span class="contry-name">China</span><span class="value-data">0.9</span></li><li><span class="order-class">102</span><span class="contry-name">Tunisia</span><span class="value-data">0.9</span></li><li><span class="order-class">103</span><span class="contry-name">Uzbekistan</span><span class="value-data">0.9</span></li><li><span class="order-class">104</span><span class="contry-name">Iran, Islamic Republic of</span><span class="value-data">0.9</span></li><li><span class="order-class">105</span><span class="contry-name">Armenia</span><span class="value-data">0.9</span></li><li><span class="order-class">106</span><span class="contry-name">Benin</span><span class="value-data">0.9</span></li><li><span class="order-class">107</span><span class="contry-name">Azerbaijan</span><span class="value-data">0.9</span></li><li><span class="order-class">108</span><span class="contry-name">Gambia</span><span class="value-data">0.8</span></li><li><span class="order-class">109</span><span class="contry-name">Moldova</span><span class="value-data">0.8</span></li><li><span class="order-class">110</span><span class="contry-name">Lesotho</span><span class="value-data">0.8</span></li><li><span class="order-class">111</span><span class="contry-name">Cuba</span><span class="value-data">0.8</span></li><li><span class="order-class">112</span><span class="contry-name">Japan</span><span class="value-data">0.7</span></li><li><span class="order-class">113</span><span class="contry-name">Mauritius</span><span class="value-data">0.7</span></li><li><span class="order-class">114</span><span class="contry-name">Morocco</span><span class="value-data">0.7</span></li><li><span class="order-class">115</span><span class="contry-name">Libyan Arab Jamahiriya</span><span class="value-data">0.7</span></li><li><span class="order-class">116</span><span class="contry-name">Nigeria</span><span class="value-data">0.7</span></li><li><span class="order-class">117</span><span class="contry-name">Korea, Republic of</span><span class="value-data">0.7</span></li><li><span class="order-class">118</span><span class="contry-name">Malawi</span><span class="value-data">0.7</span></li><li><span class="order-class">119</span><span class="contry-name">Zimbabwe</span><span class="value-data">0.6</span></li><li><span class="order-class">120</span><span class="contry-name">El Salvador</span><span class="value-data">0.6</span></li><li><span class="order-class">121</span><span class="contry-name">Syrian Arab Republic</span><span class="value-data">0.6</span></li><li><span class="order-class">122</span><span class="contry-name">Korea, Democratic People's Republic of</span><span class="value-data">0.6</span></li><li><span class="order-class">123</span><span class="contry-name">Algeria</span><span class="value-data">0.6</span></li><li><span class="order-class">124</span><span class="contry-name">Uganda</span><span class="value-data">0.6</span></li><li><span class="order-class">125</span><span class="contry-name">Nepal</span><span class="value-data">0.6</span></li><li><span class="order-class">126</span><span class="contry-name">Ethiopia</span><span class="value-data">0.6</span></li><li><span class="order-class">127</span><span class="contry-name">Egypt</span><span class="value-data">0.6</span></li><li><span class="order-class">128</span><span class="contry-name">Dominican Republic</span><span class="value-data">0.6</span></li><li><span class="order-class">129</span><span class="contry-name">Philippines</span><span class="value-data">0.5</span></li><li><span class="order-class">130</span><span class="contry-name">Rwanda</span><span class="value-data">0.5</span></li><li><span class="order-class">131</span><span class="contry-name">Togo</span><span class="value-data">0.5</span></li><li><span class="order-class">132</span><span class="contry-name">Tajikistan</span><span class="value-data">0.5</span></li><li><span class="order-class">133</span><span class="contry-name">Kenya</span><span class="value-data">0.5</span></li><li><span class="order-class">134</span><span class="contry-name">Yemen</span><span class="value-data">0.5</span></li><li><span class="order-class">135</span><span class="contry-name">Afghanistan</span><span class="value-data">0.5</span></li><li><span class="order-class">136</span><span class="contry-name">India</span><span class="value-data">0.5</span></li><li><span class="order-class">137</span><span class="contry-name">Sri Lanka</span><span class="value-data">0.4</span></li><li><span class="order-class">138</span><span class="contry-name">Jamaica</span><span class="value-data">0.4</span></li><li><span class="order-class">139</span><span class="contry-name">Bangladesh</span><span class="value-data">0.4</span></li><li><span class="order-class">140</span><span class="contry-name">Israel</span><span class="value-data">0.4</span></li><li><span class="order-class">141</span><span class="contry-name">Pakistan</span><span class="value-data">0.4</span></li><li><span class="order-class">142</span><span class="contry-name">Cyprus</span><span class="value-data">0.3</span></li><li><span class="order-class">143</span><span class="contry-name">Lebanon</span><span class="value-data">0.3</span></li><li><span class="order-class">144</span><span class="contry-name">Comoros</span><span class="value-data">0.3</span></li><li><span class="order-class">145</span><span class="contry-name">Burundi</span><span class="value-data">0.3</span></li><li><span class="order-class">146</span><span class="contry-name">Iraq</span><span class="value-data">0.3</span></li><li><span class="order-class">147</span><span class="contry-name">Haiti</span><span class="value-data">0.3</span></li><li><span class="order-class">148</span><span class="contry-name">Jordan</span><span class="value-data">0.2</span></li><li><span class="order-class">149</span><span class="contry-name">Réunion</span><span class="value-data">0.2</span></li><li><span class="order-class">150</span><span class="contry-name">Singapore</span><span class="value-data">0.1</span></li>
+                <li>1Guyana66.6</li>
+                <li>2Bolivia16.7</li>
+                <li>3Australia16.6</li>
+                <li>4Canada16</li>
+                <li>5Mongolia15.7</li>
+                <li>6Finland13.4</li>
+                <li>7Congo10.9</li>
+                <li>8Sweden10.6</li>
+                <li>9Estonia10.5</li>
+                <li>10Paraguay10.5</li>
+                <li>11Uruguay10.3</li>
+                <li>12New Zealand10.1</li>
+                <li>13Latvia9.6</li>
+                <li>14Brazil9.1</li>
+                <li>15Norway8.2</li>
+                <li>16Central African Republic7.9</li>
+                <li>17Argentina6.9</li>
+                <li>18Russian Federation6.8</li>
+                <li>19Lithuania5.7</li>
+                <li>20Bhutan5.3</li>
+                <li>21Denmark4.8</li>
+                <li>22Mauritania4.5</li>
+                <li>23Peru4</li>
+                <li>24Papua New Guinea3.9</li>
+                <li>25United States of America3.8</li>
+                <li>26Ireland3.7</li>
+                <li>26Belarus3.6</li>
+                <li>28Chile3.6</li>
+                <li>29Colombia3.6</li>
+                <li>30Botswana3.5</li>
+                <li>31Montenegro3.2</li>
+                <li>32France3.1</li>
+                <li>33Austria3.1</li>
+                <li>34Congo, Democratic Republic of3.1</li>
+                <li>35Guinea-Bissau3</li>
+                <li>36Panama2.9</li>
+                <li>37Bulgaria2.9</li>
+                <li>38Croatia2.8</li>
+                <li>39Turkmenistan2.8</li>
+                <li>40Venezuela, Bolivarian Republic of2.8</li>
+                <li>41Slovakia2.7</li>
+                <li>42Madagascar2.6</li>
+                <li>43Liberia2.6</li>
+                <li>44Angola2.6</li>
+                <li>45Czech Republic2.5</li>
+                <li>46Malaysia2.4</li>
+                <li>47Fiji2.4</li>
+                <li>48Slovenia2.4</li>
+                <li>49Romania2.3</li>
+                <li>50Germany2.3</li>
+                <li>51Ukraine2.3</li>
+                <li>52Nicaragua2.3</li>
+                <li>53Zambia2.2</li>
+                <li>54Ecuador2.2</li>
+                <li>55Hungary2.2</li>
+                <li>56Guinea2.1</li>
+                <li>57Poland2.1</li>
+                <li>58Mozambique2.1</li>
+                <li>59Chad2</li>
+                <li>60Oman1.9</li>
+                <li>61Myanmar1.8</li>
+                <li>62Côte d'Ivoire1.8</li>
+                <li>63Timor-Leste1.8</li>
+                <li>64Honduras1.8</li>
+                <li>65Cameroon1.7</li>
+                <li>66Luxembourg1.7</li>
+                <li>67Bosnia and Herzegovina1.6</li>
+                <li>68Lao People's Democratic Republic1.6</li>
+                <li>69Greece1.6</li>
+                <li>70Mali1.6</li>
+                <li>71Trinidad and Tobago1.6</li>
+                <li>72Costa Rica1.5</li>
+                <li>73Turkey1.5</li>
+                <li>74Portugal1.5</li>
+                <li>75Macedonia TFYR1.5</li>
+                <li>76Ghana1.4</li>
+                <li>77United Kingdom1.3</li>
+                <li>78Switzerland1.3</li>
+                <li>79Kyrgyzstan1.3</li>
+                <li>80Eritrea1.3</li>
+                <li>81Mexico1.3</li>
+                <li>82Somalia1.3</li>
+                <li>83Indonesia1.3</li>
+                <li>84Spain1.3</li>
+                <li>85Serbia1.3</li>
+                <li>86Thailand1.2</li>
+                <li>87Niger1.2</li>
+                <li>88Sierra Leone1.2</li>
+                <li>89Belgium1.2</li>
+                <li>90Albania1.2</li>
+                <li>91Netherlands1.2</li>
+                <li>92Georgia1.2</li>
+                <li>93South Africa1.2</li>
+                <li>94Cambodia1.1</li>
+                <li>95Italy1.1</li>
+                <li>96Tanzania, United Republic of1.1</li>
+                <li>97Senegal1.1</li>
+                <li>98Viet Nam1</li>
+                <li>99Guatemala1</li>
+                <li>100Burkina Faso1</li>
+                <li>101China0.9</li>
+                <li>102Tunisia0.9</li>
+                <li>103Uzbekistan0.9</li>
+                <li>104Iran, Islamic Republic of0.9</li>
+                <li>105Armenia0.9</li>
+                <li>106Benin0.9</li>
+                <li>107Azerbaijan0.9</li>
+                <li>108Gambia0.8</li>
+                <li>109Moldova0.8</li>
+                <li>110Lesotho0.8</li>
+                <li>111Cuba0.8</li>
+                <li>112Japan0.7</li>
+                <li>113Mauritius0.7</li>
+                <li>114Morocco0.7</li>
+                <li>115Libyan Arab Jamahiriya0.7</li>
+                <li>116Nigeria0.7</li>
+                <li>117Korea, Republic of0.7</li>
+                <li>118Malawi0.7</li>
+                <li>119Zimbabwe0.6</li>
+                <li>120El Salvador0.6</li>
+                <li>121Syrian Arab Republic0.6</li>
+                <li>122Korea, Democratic People's Republic of0.6</li>
+                <li>123Algeria0.6</li>
+                <li>124Uganda0.6</li>
+                <li>125Nepal0.6</li>
+                <li>126Ethiopia0.6</li>
+                <li>127Egypt0.6</li>
+                <li>28Dominican Republic0.6</li>
+                <li>129Philippines0.5</li>
+                <li>130Rwanda0.5</li>
+                <li>131Togo0.5</li>
+                <li>132Tajikistan0.5</li>
+                <li>133Kenya0.5</li>
+                <li>134Yemen0.5</li>
+                <li>135Afghanistan0.5</li>
+                <li>136India0.5</li>
+                <li>137Sri Lanka0.4</li>
+                <li>138Jamaica0.4</li>
+                <li>139Bangladesh0.4</li>
+                <li>140Israel0.4</li>
+                <li>141Pakistan0.4</li>
+                <li>142Cyprus0.3</li>
+                <li>143Lebanon0.3</li>
+                <li>144Comoros0.3</li>
+                <li>145Burundi0.3</li>
+                <li>146Iraq0.3</li>
+                <li>147Haiti0.3</li>
+                <li>148Jordan0.2</li>
+                <li>149Réunion0.2</li>
+                <li>150Singapore0.1</li>
               </ul>
+              </div>
               </div>
               </div>
               </div>

@@ -1,11 +1,12 @@
+<div style="background-image:url('images/register.jpg');min-height: 100vh; background-size: cover;">
 @include('admin.partials.header')
-<div style="margin-top: 10%;"></div>
-<div class="container-fluid">
+<div style="margin-top: 0%;"></div>
+<div class="container-fluid" >
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">{{ trans('quickadmin::auth.login-login') }}</div>
-                <div class="panel-body">
+        <div class="col-md-6 col-md-offset-3" style="margin-top:10%">
+            <div class="panel panel-default" >
+                <div class="panel-heading" >{{ trans('quickadmin::auth.login-login') }}</div>
+                <div class="panel-body" style="background-color:green;color:#fff !important">
                     @if (count($errors) > 0)
                         <div class="alert alert-danger">
                             <strong>{{ trans('quickadmin::auth.whoops') }}</strong> {{ trans('quickadmin::auth.some_problems_with_input') }}
@@ -70,5 +71,6 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 @include('admin.partials.footer')

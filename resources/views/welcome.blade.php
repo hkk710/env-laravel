@@ -280,7 +280,7 @@ Waste Management</p>
       <div class="caption" style="color:#fff !important">
         <h3>Electronic waste</h3>
         <p>Electronic waste is a term for electronic products that have become unwanted, non-working or obsolete, and have essentially reached the end of their useful life. Because technology advances at such a high rate, many electronic devices become “trash” after a few short years of use.</p>
-           <a href="{{url('/ewaste')}}"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
+           <a href="/images/E-WASTE.pptx"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
           <br>
           <br>
       </div>

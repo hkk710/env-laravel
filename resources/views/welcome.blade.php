@@ -109,6 +109,16 @@ element {
   margin: 5px;
 }
 
+.round
+    {
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        padding: 4px;
+        background-color: orange;
+        color: #000;
+        border: 1px solid #fff;
+    }
+
 .button span {
   cursor: pointer;
   display: inline-block;
@@ -332,7 +342,7 @@ Waste Management</p>
                 <h4>COUNTRIES WITH BIOCAPACITY RESERVE</h4>
                 <p>PERCENTAGE THAT BIOCAPACITY EXCEEDS ECOLOGICAL FOOTPRINT</p>
                 <hr>
-                <div class="panel panel-primary" style="color: #111!important; box-shadow: inset 0 0 5px 1px grey;">
+                <div class="panel panel-primary" style="color: #111!important;background-color: lightgreen; box-shadow: inset 0 0 5px 1px grey;">
                   <ul data-spy="scroll" data-offset="50" style="list-style: none; padding: 0; height: 400px; overflow-y: scroll;">
                   <li>Guyana 2,100%</li>
                   <li>Congo 750%</li>
@@ -388,7 +398,7 @@ Waste Management</p>
                 <h4>COUNTRIES WITH BIOCAPACITY DEFICIT</h4>
                 <p>PERCENTAGE THAT ECOLOGICAL FOOTPRINT EXCEEDS BIOCAPACITY</p>
                 <hr>
-                <div class="panel panel-default" style="color: #111!important; box-shadow: inset 0 0 5px 1px grey;">
+                <div class="panel panel-default" style="color: #111!important;background-color: #f44242; box-shadow: inset 0 0 5px 1px grey;">
                   <ul style="list-style: none; padding: 0; height: 400px; overflow-y: scroll;">
                     <li><span class="contry-name-full">Singapore</span><span class="contry-value-full">16,000%</span></li>
                     <li><span class="contry-name-full">Réunion</span><span class="contry-value-full">1,900%</span></li>
@@ -503,20 +513,20 @@ Waste Management</p>
                 <h4>COUNTRIES RANKED BY TOTAL ECOLOGICAL FOOTPRINT (in global hectares) </h4>
                 <hr>
                 <div class="panel panel-primary" style="color: #111!important; box-shadow: inset 0 0 5px 1px grey;">
-                <ul style="list-style: none; padding: 0; height: 400px; overflow-y: scroll;">
-                  <li>1 China 4,800,000,000</li>
-                  <li>2 United States of America 2,600,000,000</li>
-                  <li>3 India 1,400,000,000</li>
-                  <li>4 Russian Federation 810,000,000</li>
-                  <li>5 Japan 640,000,000</li>
-                  <li>6 Brazil 620,000,000</li>
-                  <li>7 Germany 440,000,000</li>
-                  <li>8 Indonesia 390,000,000</li>
-                  <li>9 Mexico 350,000,000</li>
-                  <li>10France330,000,000</li>
-                  <li>11United Kingdom310,000,000</li>
-                  <li>12Canada280,000,000</li>
-                  <li>13Italy280,000,000</li>
+                <ul style="list-style: none; background-color:orange; padding: 0; height: 400px; overflow-y: scroll;">
+                  <li><span class="round" style="text-align:left">&nbsp; 1 &nbsp;</span> &nbsp;<span style="text-align:right"> China &nbsp;4,800,000,000</span></li>
+                  <li><span class="round">&nbsp; 2 &nbsp;</span> &nbsp; United States of America &nbsp; 2,600,000,000</li>
+                  <li><span class="round" style="text-align:left">&nbsp; 3 &nbsp;</span> &nbsp; India &nbsp; 1,400,000,000</li>
+                  <li><span class="round" style="text-align:left">&nbsp; 4 &nbsp;</span> Russian Federation 810,000,000</li>
+                  <li><span class="round" style="text-align:left">&nbsp; 5 &nbsp;</span> Japan 640,000,000</li>
+                  <li><span class="round" style="text-align:left">&nbsp; 6 &nbsp;</span> Brazil 620,000,000</li>
+                  <li><span class="round" style="text-align:left">&nbsp; 7 &nbsp;</span> Germany 440,000,000</li>
+                  <li><span class="round" style="text-align:left">&nbsp; 8 &nbsp;</span> Indonesia 390,000,000</li>
+                  <li><span class="round" style="text-align:left">&nbsp; 9 &nbsp;</span> Mexico 350,000,000</li>
+                  <li><span class="round" style="text-align:left">&nbsp;10&nbsp;</span> France 330,000,000</li>
+                  <li><span class="round" style="text-align:left">&nbsp;11&nbsp;</span> United Kingdom 310,000,000</li>
+                  <li><span class="round" style="text-align:left">&nbsp;12&nbsp;</span> Canada 280,000,000</li>
+                  <li><span class="round" style="text-align:left">&nbsp;13&nbsp;</span> Italy 280,000,000</li>
                   <li>14Korea, Republic of280,000,000</li>
                   <li>15Turkey250,000,000</li>
                   <li>16Australia210,000,000</li>
@@ -664,7 +674,7 @@ Waste Management</p>
               <div class="w3-panel w3-yellow row">
                 <h4>COUNTRIES RANKED BY ECOLOGICAL FOOTPRINT PER CAPITA (in global hectares)</h4>
                 <hr>
-                <div class="panel panel-primary" style="color: #111!important; box-shadow: inset 0 0 5px 1px grey;">
+                <div class="panel panel-primary" style="color: #111!important;background-color:#f9e25e; box-shadow: inset 0 0 5px 1px grey;">
               <ul style="list-style: none; padding: 0; height: 400px; overflow-y: scroll;">
                         <li>1 Luxembourg 15.8</li>
                         <li>2 Australia 9.3 </li>
@@ -765,57 +775,57 @@ Waste Management</p>
                         97Viet Nam1.7
                         98Georgia1.6
                         99Indonesia1.6
-                        <li>100Niger1.6</li>
-                        <li>101Dominican Republic1.5</li>
-                        <li>102Mali1.5</li>
-                        <li>103Guinea-Bissau1.5</li>
-                        <li>104Syrian Arab Republic1.5</li>
-                        <li>105Chad1.5</li>
-                        <li>106Myanmar1.4</li>
-                        <li>107Benin1.4</li>
-                        <li>108Guinea1.4</li>
-                        <li>109Nicaragua1.4</li>
-                        <li>110Zimbabwe1.4</li>
-                        <li>111Sri Lanka1.3</li>
-                        <li>112Tanzania, United Republic of1.3</li>
-                        <li>113Congo1.3</li>
-                        <li>114Côte d'Ivoire1.3</li>
-                        <li>115Uganda1.2</li>
-                        <li>116Sierra Leone1.2</li>
-                        <li>117Somalia1.2</li>
-                        <li>118Central African Republic1.2</li>
-                        <li>119Lao People's Democratic Republic1.2</li>
-                        <li>120Burkina Faso1.2</li>
-                        <li>121Senegal1.2</li>
-                        <li>122Cambodia1.2</li>
-                        <li>123Liberia1.2</li>
-                        <li>124Korea, Democratic People's Republic of1.2</li>
-                        <li>125Cameroon1.2</li>
-                        <li>126India1.2</li>
-                        <li>127Nigeria1.2</li>
-                        <li>128Togo1.1</li>
-                        <li>129Philippines1.1</li>
-                        <li>130Comoros1</li>
-                        <li>131Yemen1</li>
-                        <li>132Kenya1</li>
-                        <li>133Gambia1</li>
-                        <li>134Ethiopia1</li>
-                        <li>135Zambia1</li>
-                        <li>136Madagascar1</li>
-                        <li>137Nepal1</li>
-                        <li>138Angola0.9</li>
-                        <li>139Tajikistan0.9</li>
-                        <li>140Rwanda0.9</li>
-                        <li>141Mozambique0.9</li>
-                        <li>142Congo, Democratic Republic of0.8</li>
-                        <li>143Malawi0.8</li>
-                        <li>144Burundi0.8</li>
-                        <li>145Pakistan0.8</li>
-                        <li>146Afghanistan0.8</li>
-                        <li>147Bangladesh0.7</li>
-                        <li>148Haiti0.6</li>
-                        <li>149Timor-Leste0.5</li>
-                        <li>150Eritrea0.4</li>
+                        <li>100 Niger 1.6</li>
+                        <li>101 Dominican Republic 1.5</li>
+                        <li>102 Mali 1.5</li>
+                        <li>103 Guinea-Bissau 1.5</li>
+                        <li>104 Syrian Arab Republic 1.5</li>
+                        <li>105 Chad 1.5</li>
+                        <li>106 Myanmar 1.4</li>
+                        <li>107 Benin 1.4</li>
+                        <li>108 Guinea 1.4</li>
+                        <li>109 Nicaragua 1.4</li>
+                        <li>110 Zimbabwe 1.4</li>
+                        <li>111 Sri Lanka 1.3</li>
+                        <li>112 Tanzania, United Republic of 1.3</li>
+                        <li>113 Congo 1.3</li>
+                        <li>114 Côte d'Ivoire 1.3</li>
+                        <li>115 Uganda 1.2</li>
+                        <li>116 Sierra Leone 1.2</li>
+                        <li>117 Somalia 1.2</li>
+                        <li>118 Central African Republic 1.2</li>
+                        <li>119 Lao People's Democratic Republic 1.2</li>
+                        <li>120 Burkina Faso 1.2</li>
+                        <li>121 Senegal 1.2</li>
+                        <li>122 Cambodia 1.2</li>
+                        <li>123 Liberia 1.2</li>
+                        <li>124 Korea, Democratic People's Republic of 1.2</li>
+                        <li>125 Cameroon 1.2</li>
+                        <li>126 India 1.2</li>
+                        <li>127 Nigeria 1.2</li>
+                        <li>128 Togo 1.1</li>
+                        <li>129 Philippines 1.1</li>
+                        <li>130 Comoros 1</li>
+                        <li>131 Yemen 1</li>
+                        <li>132 Kenya 1</li>
+                        <li>133 Gambia 1</li>
+                        <li>134 Ethiopia 1</li>
+                        <li>135 Zambia 1</li>
+                        <li>136 Madagascar 1</li>
+                        <li>137 Nepal 1</li>
+                        <li>138 Angola 0.9</li>
+                        <li>139 Tajikistan 0.9</li>
+                        <li>140 Rwanda 0.9</li>
+                        <li>141 Mozambique 0.9</li>
+                        <li>142 Congo, Democratic Republic of 0.8</li>
+                        <li>143 Malawi 0.8</li>
+                        <li>144 Burundi 0.8</li>
+                        <li>145 Pakistan 0.8</li>
+                        <li>146 Afghanistan 0.8</li>
+                        <li>147 Bangladesh 0.7</li>
+                        <li>148 Haiti 0.6</li>
+                        <li>149 Timor-Leste 0.5</li>
+                        <li>150 Eritrea 0.4</li>
                       </ul>
                       </div>
                     </div>
@@ -826,157 +836,157 @@ Waste Management</p>
               <div class="w3-panel w3-green row">
                 <h4>COUNTRIES RANKED BY TOTAL BIOCAPACITY (in global hectares)</h4>
                 <hr>
-                <div class="panel panel-primary" style="color: #111!important; box-shadow: inset 0 0 5px 1px grey;">
+                <div class="panel panel-primary" style="color: #111!important;background-color: lightgreen; box-shadow: inset 0 0 5px 1px grey;">
               <ul style="list-style: none; padding: 0; height: 400px; overflow-y: scroll;">
-              <li>1Brazil1,800,000,000</li>
-              <li>2China1,300,000,000</li>
-              <li>3United States of America1,200,000,000</li>
-              4Russian Federation970,000,000
-              5India560,000,000
-              6Canada560,000,000
-              7Australia380,000,000
-              8Indonesia310,000,000
-              9Argentina280,000,000
-              10Congo, Democratic Republic of200,000,000
-              11France200,000,000
-              12Germany190,000,000
-              13Bolivia180,000,000
-              14Colombia170,000,000
-              15Mexico150,000,000
-              16Peru120,000,000
-              17Nigeria120,000,000
-              18Turkey110,000,000
-              19Ukraine100,000,000
-              20Sweden100,000,000
-              21Myanmar97,000,000
-              22Japan91,000,000
-              23Viet Nam90,000,000
-              24Venezuela, Bolivarian Republic of83,000,000
-              25Thailand83,000,000
-              26United Kingdom83,000,000
-              27Poland79,000,000
-              28Finland73,000,000
-              29Malaysia70,000,000
-              30Paraguay70,000,000
-              31Iran, Islamic Republic of69,000,000
-              32Italy66,000,000
-              33Chile63,000,000
-              34Pakistan62,000,000
-              35South Africa60,000,000
-              36Madagascar59,000,000
-              37Spain58,000,000
-              38Bangladesh58,000,000
-              39Ethiopia53,000,000
-              40Angola53,000,000
-              41Guyana53,000,000
-              42Philippines53,000,000
-              43Mozambique52,000,000
-              44Tanzania, United Republic of52,000,000
-              45Romania51,000,000
-              46Congo47,000,000
-              47New Zealand45,000,000
-              48Egypt45,000,000
-              49Mongolia44,000,000
-              50Norway40,000,000
-              51Cameroon37,000,000
-              52Central African Republic36,000,000
-              53Côte d'Ivoire35,000,000
-              54Uruguay35,000,000
-              55Ghana34,000,000
-              56Belarus34,000,000
-              57Ecuador34,000,000
-              58Korea, Republic of33,000,000
-              59Zambia31,000,000
-              60Papua New Guinea28,000,000
-              61Denmark27,000,000
-              62Uzbekistan26,000,000
-              63Czech Republic26,000,000
-              64Austria26,000,000
-              65Chad25,000,000
-              66Guinea24,000,000
-              67Mali23,000,000
-              68Morocco23,000,000
-              69Algeria23,000,000
-              70Kenya22,000,000
-              71Hungary22,000,000
-              72Uganda21,000,000
-              73Niger21,000,000
-              74Bulgaria21,000,000
-              75Latvia20,000,000
-              76Netherlands19,000,000
-              77Greece18,000,000
-              78Lithuania17,000,000
-              79Ireland17,000,000
-              80Mauritania17,000,000
-              81Nepal16,000,000
-              82Cambodia16,000,000
-              83Burkina Faso16,000,000
-              84Portugal16,000,000
-              85Guatemala15,000,000
-              86Korea, Democratic People's Republic of15,000,000
-              87Afghanistan15,000,000
-              88Slovakia15,000,000
-              89Turkmenistan14,000,000
-              90Senegal14,000,000
-              91Honduras14,000,000
-              92Estonia14,000,000
-              93Nicaragua14,000,000
-              94Syrian Arab Republic13,000,000
-              95Belgium13,000,000
-              96Somalia13,000,000
-              97Croatia12,000,000
-              98Serbia12,000,000
-              99Yemen12,000,000
-              100Panama11,000,000
-              101Liberia11,000,000
-              102Lao People's Democratic Republic11,000,000
-              103Malawi11,000,000
-              104Switzerland10,000,000
-              105Tunisia10,000,000
-              106Iraq9,400,000
-              107Sri Lanka9,300,000
-              108Benin8,800,000
-              109Cuba8,600,000
-              110Zimbabwe8,500,000
-              111Eritrea8,000,000
-              112Azerbaijan7,900,000
-              113Sierra Leone7,400,000
-              114Costa Rica7,400,000
-              115Kyrgyzstan7,100,000
-              116Botswana7,000,000
-              117Oman6,300,000
-              118Bosnia and Herzegovina6,300,000
-              119Rwanda6,200,000
-              120Dominican Republic5,700,000
-              121Georgia5,100,000
-              122Guinea-Bissau5,000,000
-              123Slovenia4,800,000
-              124Libyan Arab Jamahiriya4,300,000
-              125Tajikistan4,200,000
-              126Bhutan3,900,000
-              127El Salvador3,900,000
-              128Albania3,700,000
-              129Togo3,500,000
-              130Macedonia TFYR3,200,000
-              131Burundi3,100,000
-              132Moldova2,800,000
-              133Haiti2,700,000
-              134Israel2,700,000
-              135Armenia2,600,000
-              136Trinidad and Tobago2,100,000
-              137Fiji2,100,000
-              138Montenegro2,000,000
-              139Timor-Leste2,000,000
-              140Lesotho1,600,000
-              141Lebanon1,500,000
-              142Jordan1,500,000
-              143Gambia1,500,000
-              144Jamaica1,200,000
-              145Luxembourg900,000
-              146Mauritius900,000
-              147Cyprus400,000
-              148Singapore300,000
-              149Comoros200,000
+              <li>1 Brazil 1,800,000,000</li>
+              <li>2 China 1,300,000,000</li>
+              <li>3 United States of America 1,200,000,000</li>
+              <li>4 Russian Federation 970,000,000</li>
+              <li>5 India 560,000,000</li>
+              <li>6 Canada 560,000,000</li>
+              <li>7 Australia 380,000,000</li>
+              <li>8 Indonesia 310,000,000</li>
+              <li>9 Argentina 280,000,000</li>
+              <li>10 Congo, Democratic Republic of 200,000,000</li>
+              <li>11 France 200,000,000</li>
+              <li>12 Germany 190,000,000</li>
+              <li>13 Bolivia 180,000,000</li>
+              <li>14 Colombia 170,000,000</li>
+              <li>15 Mexico 150,000,000</li>
+              <li>16 Peru 120,000,000</li>
+              <li>17 Nigeria 120,000,000</li>
+              <li>18 Turkey 110,000,000</li>
+              <li>19 Ukraine 100,000,000</li>
+              <li>20 Sweden 100,000,000</li>
+              <li>21 Myanmar 97,000,000</li>
+              <li>22 Japan 91,000,000</li>
+              <li>23 Viet Nam 90,000,000</li>
+              <li>24 Venezuela, Bolivarian Republic of 83,000,000</li>
+              <li>25 Thailand 83,000,000</li>
+              <li>26 United Kingdom 83,000,000</li>
+              <li>27 Poland 79,000,000</li>
+              <li>28 Finland 73,000,000</li>
+              <li>29 Malaysia 70,000,000</li>
+              <li>30 Paraguay 70,000,000</li>
+              <li>31 Iran, Islamic Republic of 69,000,000</li>
+              <li>32 Italy 66,000,000</li>
+              <li>33 Chile 63,000,000</li>
+              <li>34 Pakistan 62,000,000</li>
+              <li>35 South Africa 60,000,000</li>
+              <li>36 Madagascar 59,000,000</li>
+              <li>37 Spain58,000,000</li>
+              <li>38 Bangladesh 58,000,000</li>
+              <li>39 Ethiopia 53,000,000</li>
+              <li>40 Angola 53,000,000</li>
+              <li>41 Guyana 53,000,000</li>
+              <li>42 Philippines 53,000,000</li>
+              <li>43 Mozambique 52,000,000</li>
+              <li>44 Tanzania, United Republic of 52,000,000</li>
+              <li>45 Romania 51,000,000</li>
+              <li>46 Congo 47,000,000</li>
+              <li>47 New Zealand 45,000,000</li>
+              <li>48 Egypt 45,000,000</li>
+              <li>49 Mongolia 44,000,000</li>
+              <li>50 Norway 40,000,000</li>
+              <li>51 Cameroon 37,000,000</li>
+              <li>52 Central African Republic 36,000,000</li>
+              <li>53 Côte d'Ivoire 35,000,000</li>
+              <li>54 Uruguay 35,000,000</li>
+              <li>55 Ghana 34,000,000</li>
+              <li>56 Belarus 34,000,000</li>
+              <li>57 Ecuador 34,000,000</li>
+              <li>58 Korea, Republic of 33,000,000</li>
+              <li>59 Zambia 31,000,000</li>
+              <li>60 Papua New Guinea 28,000,000</li>
+              <li>61 Denmark 27,000,000</li>
+              <li>62 Uzbekistan 26,000,000</li>
+              <li>63 Czech Republic 26,000,000</li>
+              <li>64 Austria 26,000,000</li>
+              <li>65 Chad 25,000,000</li>
+              <li>66 Guinea 24,000,000</li>
+              <li>67 Mali 23,000,000</li>
+              <li>68 Morocco 23,000,000</li>
+              <li>69 Algeria 23,000,000</li>
+              <li>70 Kenya 22,000,000</li>
+              <li>71 Hungary 22,000,000</li>
+              <li>72 Uganda 21,000,000</li>
+              <li>73 Niger 21,000,000</li>
+              <li>74 Bulgaria 21,000,000</li>
+              <li>75 Latvia 20,000,000</li>
+              <li>76 Netherlands 19,000,000</li>
+              <li>77 Greece 18,000,000</li>
+              <li>78 Lithuania 17,000,000</li>
+              <li>79 Ireland 17,000,000</li>
+              <li>80 Mauritania 17,000,000</li>
+              <li>81 Nepal 16,000,000</li>
+              <li>82 Cambodia 16,000,000</li>
+              <li>83 Burkina Faso 16,000,000</li>
+              <li>84 Portugal 16,000,000</li>
+              <li>85 Guatemala 15,000,000</li>
+              <li>86 Korea, Democratic People's Republic of 15,000,000</li>
+              <li>87 Afghanistan 15,000,000</li>
+              <li>88 Slovakia 15,000,000</li>
+              <li>89 Turkmenistan 14,000,000</li>
+              <li>90 Senegal 14,000,000</li>
+              <li>91 Honduras 14,000,000</li>
+              <li>92 Estonia 14,000,000</li>
+              <li>93 Nicaragua 14,000,000</li>
+              <li>94 Syrian Arab Republic 13,000,000</li>
+              <li>95 Belgium 13,000,000</li>
+              <li>96 Somalia 13,000,000</li>
+              <li>97 Croatia 12,000,000</li>
+              <li>98 Serbia 12,000,000</li>
+              <li>99 Yemen 12,000,000</li>
+              <li>100 Panama 11,000,000</li>
+              <li>101 Liberia 11,000,000</li>
+              <li>102 Lao People's Democratic Republic 11,000,000</li>
+              <li>103 Malawi 11,000,000</li>
+              <li>104 Switzerland 10,000,000</li>
+              <li>105 Tunisia 10,000,000</li>
+              <li>106 Iraq 9,400,000</li>
+              <li>107 Sri Lanka 9,300,000</li>
+              <li>108 Benin 8,800,000</li>
+              <li>109 Cuba 8,600,000</li>
+              <li>110 Zimbabwe 8,500,000</li>
+              <li>111 Eritrea 8,000,000</li>
+              <li>112 Azerbaijan 7,900,000</li>
+              <li>113 Sierra Leone 7,400,000</li>
+              <li>114 Costa Rica 7,400,000</li>
+              <li>115 Kyrgyzstan 7,100,000</li>
+              <li>116 Botswana 7,000,000</li>
+              <li>117 Oman 6,300,000</li>
+              <li>118 Bosnia and Herzegovina 6,300,000</li>
+              <li>119 Rwanda 6,200,000</li>
+              <li>120 Dominican Republic 5,700,000</li>
+              <li>121 Georgia 5,100,000</li>
+              <li>122 Guinea-Bissau 5,000,000</li>
+              <li>123 Slovenia 4,800,000</li>
+              <li>124 Libyan Arab Jamahiriya 4,300,000</li>
+              <li>125 Tajikistan 4,200,000</li>
+              <li>126 Bhutan 3,900,000</li>
+              <li>127 El Salvador 3,900,000</li>
+              <li>128 Albania 3,700,000</li>
+              <li>129 Togo 3,500,000</li>
+              <li>130 Macedonia TFYR 3,200,000</li>
+              <li>131 Burundi 3,100,000</li>
+              <li>132 Moldova 2,800,000</li>
+              <li>133 Haiti 2,700,000</li>
+              <li>134 Israel 2,700,000</li>
+              <li>135 Armenia 2,600,000</li>
+              <li>136 Trinidad and Tobago 2,100,000</li>
+              <li>137 Fiji 2,100,000</li>
+              <li>138 Montenegro 2,000,000</li>
+              <li>139 Timor-Leste 2,000,000</li>
+              <li>140 Lesotho 1,600,000</li>
+              <li>141 Lebanon 1,500,000</li>
+              <li>142 Jordan 1,500,000</li>
+              <li>143 Gambia 1,500,000</li>
+              <li>144 Jamaica 1,200,000</li>
+              <li>145 Luxembourg 900,000</li>
+              <li>146 Mauritius 900,000</li>
+              <li>147 Cyprus 400,000</li>
+              <li>148 Singapore 300,000</li>
+              <li>149 Comoros 200,000</li>
               <li>150Réunion200,000</li>
             </div>
           </div>

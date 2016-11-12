@@ -260,6 +260,7 @@ element {
     <nav class="collapse navbar-collapse navbar-right" role="navigation">
                         <li><a href="#typesofwastes">Types of Waste</a></li>
                         <li><a href="#wastemanagement">Waste Management </a></li>
+                        <li><a href="#topcountries">Top Countries </a></li>
                         <li><a href="#footprint">Foot Print</a></li>
                         <li><a href="#team">Team</a></li>
                         <li><a href="#contact">Contact</a></li>

@@ -1,5 +1,7 @@
 # ENVIRONMENT PROJECT
 
+Environment Studies Term project for S3BCA AMRITA SCHOOL OF ENGINEERING AMRITAPURI 
+
 # Team Members
 [HARIKRISHNA AJ]
 [ARJUN NM]

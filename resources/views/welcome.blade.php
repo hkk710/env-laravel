@@ -29,7 +29,7 @@ body, html {
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
-    opacity: 0.7;
+    opacity: 0.8;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

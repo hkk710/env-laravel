@@ -351,19 +351,19 @@ element {
 </div>
 
 <div class="w3-row w3-center w3-padding-16" style="background-color:green;color:white !important">
-  <div class="w3-quarter w3-section">
+  <div class="w3-quarter w3-section slideanim">
     <span class="w3-xlarge">130,000 tons per day</span><br>
     Municipal waste includes household waste, commercial waste, and demolition waste
   </div>
-  <div class="w3-quarter w3-section">
+  <div class="w3-quarter w3-section slideanim">
     <span class="w3-xlarge">150 million tonne of waste in a day</span><br>
     Hazardous waste includes industrial waste
   </div>
-  <div class="w3-quarter w3-section">
+  <div class="w3-quarter w3-section slideanim">
     <span class="w3-xlarge">484 Tonnes of Biomedical Waste a Day</span><br>
     Biomedical waste includes clinical waste
   </div>
-  <div class="w3-quarter w3-section">
+  <div class="w3-quarter w3-section slideanim">
     <span class="w3-xlarge">1.47 lakh tonnes per day</span><br>
     Special hazardous waste includes radioactive waste, explosive waste, and electronic waste (e-waste)
   </div>
@@ -1186,6 +1186,7 @@ Waste Management</p>
               <li>148 Singapore 300,000</li>
               <li>149 Comoros 200,000</li>
               <li>150Réunion200,000</li>
+              </ul>
             </div>
           </div>
           </div>
@@ -1194,7 +1195,8 @@ Waste Management</p>
       </div>
     </div>
   </div>
-</div>
+  </div>
+  </div>
 
 
 <!-- Third Parallax Image with Portfolio Text -->
@@ -1214,7 +1216,7 @@ Waste Management</p>
 <div class="w3-row"><br>
 
 <div class="w3-quarter slideanim">
-  <img src="{{asset('images/HARIKRISHNA.jpg')}}" alt="" draggable="false" style="width:45%" class="w3-circle w3-hover-opacity">
+  <img src="{{asset('images/HARIKRISHNAAJ.jpg')}}" alt="" draggable="false" style="width:45%" class="w3-circle w3-hover-opacity">
   <h3>HARIKRISHNA AJ</h3>
   <p>Member</p>
 </div>

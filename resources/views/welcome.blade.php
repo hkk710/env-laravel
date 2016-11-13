@@ -13,6 +13,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <link rel="stylesheet" href="{{ asset('css/parsley.css') }}">
+
+
+
+
+
+
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
@@ -173,6 +179,41 @@ body, html {
 
 
 /*upto here*/
+
+
+/* code for page content transmision*/
+
+
+.slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+/* upto here*/
 
 
 element {
@@ -344,7 +385,7 @@ Waste Management</p>
  <br>
 <div class="row">
   <div class="col-sm-3 col-xs-12">
-  <div class="panel panel-default text-center thumbnail" style="background-color:green">
+  <div class="panel panel-default text-center thumbnail slideanim" style="background-color:green">
       <img src="{{asset('images/ii.jpg')}}" alt="...">
       <div class="caption" style="color:#fff !important">
         <h3>Municipal waste</h3>
@@ -356,7 +397,7 @@ Waste Management</p>
     </div>
 </div>
   <div class="col-sm-3 col-xs-12">
-    <div class="panel panel-default text-center thumbnail" style="background-color:green">
+    <div class="panel panel-default text-center thumbnail slideanim" style="background-color:green">
       <img src="{{asset('images/iii.jpg')}}" alt="...">
       <div class="caption" style="color:#fff !important">
         <h3>Industrial waste</h3>
@@ -368,7 +409,7 @@ Waste Management</p>
     </div>
   </div>
   <div class="col-sm-3 col-xs-12">
-    <div class="panel panel-default text-center thumbnail" style="background-color:green" >
+    <div class="panel panel-default text-center thumbnail slideanim" style="background-color:green" >
       <img src="{{asset('images/iiii.jpg')}}" alt="...">
       <div class="caption" style="color:#fff !important">
         <h3>Biomedical Waste</h3>
@@ -380,7 +421,7 @@ Waste Management</p>
     </div>
   </div>
   <div class="col-sm-3 col-xs-12">
-    <div class="panel panel-default text-center thumbnail" style="background-color:green">
+    <div class="panel panel-default text-center thumbnail slideanim" style="background-color:green">
       <img src="{{asset('images/i.JPG')}}" alt="...">
       <div class="caption" style="color:#fff !important">
         <h3>Electronic waste</h3>
@@ -462,26 +503,26 @@ Waste Management</p>
 <br>
 <div class="w3-row"><br>
 
-<div class="w3-quarter ad-img-hover">
+<div class="w3-quarter ad-img-hover slideanim">
   <a href="#icon-1" aria-controls="icon-1" data-toggle="tab">
     <img id="icon1-change" src="{{asset('images/icon-1-fade.png')}}" alt="" draggable="false" style="width:45%" onmouseover="icon1(this)" onmouseout="icon1out(this)" id="icon1-change" onclick="icon1in(this)"></a>
     <h3>Ecological Deficit/Reserve</h3>
 </div>
 
-<div class="w3-quarter ad-img-hover">
+<div class="w3-quarter ad-img-hover slideanim">
 <a href="#icon-2" aria-controls="icon-2" data-toggle="tab"> 
 <img onmouseover="icon2(this)" src="{{asset('images/icon-2-fade.png')}}" alt="" draggable="false" style="width:45%" onmouseout="icon2out(this)" id="icon2-change" onclick="icon2in(this)">
   </a>
   <h3>Total Ecological Footprint</h3>
 </div>
 
-<div class="w3-quarter ad-img-hover">
+<div class="w3-quarter ad-img-hover slideanim">
   <a href="#icon-3" aria-controls="icon-3" data-toggle="tab">
     <img src="{{asset('images/icon-3-fade.png')}}" alt="" draggable="false" style="width:53%;" onmouseover="icon3(this)" onmouseout="icon3out(this)" id="icon3-change" onclick="icon3in(this)"></a>
     <h3>Ecological Footprint Per Capita</h3>
 </div>
 
-<div class="w3-quarter ad-img-hover">
+<div class="w3-quarter ad-img-hover slideanim">
   <a href="#icon-4" aria-controls="icon-4" data-toggle="tab">
   <img src="{{asset('images/icon-4-fade.png')}}" alt="" draggable="false" style="width:45%" onmouseover="icon4(this)" onmouseout="icon4out(this)" id="icon4-change" onclick="icon4in(this)">
     </a>
@@ -489,7 +530,7 @@ Waste Management</p>
 </div>
 </div>
 
-<div class="container">
+<div class="container slideanim">
   <div class="panel panel-success">
     <div class="panel-body">
       <div class="tab-content">
@@ -1172,25 +1213,25 @@ Waste Management</p>
 <br>
 <div class="w3-row"><br>
 
-<div class="w3-quarter">
+<div class="w3-quarter slideanim">
   <img src="{{asset('images/HARIKRISHNA.jpg')}}" alt="" draggable="false" style="width:45%" class="w3-circle w3-hover-opacity">
   <h3>HARIKRISHNA AJ</h3>
   <p>Member</p>
 </div>
 
-<div class="w3-quarter">
+<div class="w3-quarter slideanim">
   <img src="{{asset('images/arjun.jpg')}}" alt="" draggable="false" style="width:45%" class="w3-circle w3-hover-opacity">
   <h3>ARJUN NM</h3>
   <p>Member</p>
 </div>
 
-<div class="w3-quarter">
+<div class="w3-quarter slideanim">
   <img src="{{asset('images/govindan1.jpg')}}" alt="" draggable="false" style="width:45%" class="w3-circle w3-hover-opacity">
   <h3>HARIGOVINDAN MG</h3>
   <p>Member</p>
 </div>
 
-<div class="w3-quarter">
+<div class="w3-quarter slideanim">
   <img src="{{asset('images/j.jpg')}}" alt="" draggable="false" style="width:45%" class="w3-circle w3-hover-opacity">
   <h3>JOEL JOHN</h3>
   <p>Member</p>
@@ -1226,7 +1267,7 @@ Waste Management</p>
   <div  class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
       <!-- Add Google Maps -->
-      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+      <div id="googleMap" class="w3-round-large w3-greyscale slideanim" style="width:100%;height:400px;"></div>
     </div>
     <div class="w3-col m8 w3-container w3-section">
       <div class="w3-large w3-margin-bottom">
@@ -1238,7 +1279,7 @@ Waste Management</p>
 
 
 
-      <form class="w3-row-padding" style="margin:0 -16px 8px -16px" method="POST" action="/send" data-parsley-validate>
+      <form class="w3-row-padding slideanim" style="margin:0 -16px 8px -16px" method="POST" action="/send" data-parsley-validate>
         {{ csrf_field() }}
         <div class="w3-half">
           <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Name" name="name" required="required" maxlength="255">
@@ -1370,6 +1411,44 @@ function drawChart1(data,selector,padding){
   }
 }
 //upto here
+
+
+//any problem remove the below code
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+
 </script>
 </body>
 </html>

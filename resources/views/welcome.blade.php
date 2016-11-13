@@ -323,30 +323,30 @@ element {
 
 <!-- Container (About Section) -->
 <div id="typesofwastes" class="w3-content w3-container w3-padding-64">
-  <h3 class="w3-center">OUR PROJECT</h3>
-  <p class="w3-center"><em>Waste Management</em></p>
-  <p>There are many issues that surround reporting waste. It is most commonly measured by size or weight, and there is a stark difference between the two. For example, organic waste is much heavier when it is wet, and plastic or glass bottles can have different weights but be the same size. On a global scale it is difficult to report waste because countries have different definitions of waste and what falls into waste categories, as well as different ways of reporting. Based on incomplete reports from its parties, the Basel Convention estimated 338 million tonnes of waste was generated in 2001. For the same year, OECD estimated 4 billion tonnes from its member countries. Despite these inconsistencies, waste reporting is still useful on a small and large scale to determine key causes and locations, and to find ways of preventing, minimizing, recovering, treating, and disposing waste.</p>
+  <h3 class="w3-center slideanim">OUR PROJECT</h3>
+  <p class="w3-center slideanim"><em>Waste Management</em></p>
+  <p class="slideanim">There are many issues that surround reporting waste. It is most commonly measured by size or weight, and there is a stark difference between the two. For example, organic waste is much heavier when it is wet, and plastic or glass bottles can have different weights but be the same size. On a global scale it is difficult to report waste because countries have different definitions of waste and what falls into waste categories, as well as different ways of reporting. Based on incomplete reports from its parties, the Basel Convention estimated 338 million tonnes of waste was generated in 2001. For the same year, OECD estimated 4 billion tonnes from its member countries. Despite these inconsistencies, waste reporting is still useful on a small and large scale to determine key causes and locations, and to find ways of preventing, minimizing, recovering, treating, and disposing waste.</p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
     </div>
 
   </div>
-  <p class="w3-large w3-center w3-padding-16">Types of Wastes:</p>
-  <p class="w3-wide">Municipal waste</p>
-  <div class="w3-progress-container">
-    <div class="w3-progressbar" style="width:60%; background-color:green"></div>
+  <p class="w3-large w3-center w3-padding-16 slideanim">Types of Wastes:</p>
+  <p class="w3-wide slideanim">Municipal waste</p>
+  <div class="w3-progress-container slideanim">
+    <div class="w3-progressbar slideanim" style="width:60%; background-color:green"></div>
   </div>
-  <p class="w3-wide">Industrial waste</p>
-  <div class="w3-progress-container">
-    <div class="w3-progressbar" style="width:35%; background-color:green"></div>
+  <p class="w3-wide slideanim">Industrial waste</p>
+  <div class="w3-progress-container slideanim">
+    <div class="w3-progressbar slideanim" style="width:35%; background-color:green"></div>
   </div>
-  <p class="w3-wide">Biomedical Waste</p>
-  <div class="w3-progress-container">
-    <div class="w3-progressbar" style="width:25%; background-color:green"></div>
+  <p class="w3-wide slideanim">Biomedical Waste</p>
+  <div class="w3-progress-container slideanim">
+    <div class="w3-progressbar slideanim" style="width:25%; background-color:green"></div>
   </div>
-  <p class="w3-wide">Electronic waste (e-waste)</p>
-  <div class="w3-progress-container">
-    <div class="w3-progressbar" style="width:75%; background-color:green"></div>
+  <p class="w3-wide slideanim">Electronic waste (e-waste)</p>
+  <div class="w3-progress-container slideanim">
+    <div class="w3-progressbar slideanim" style="width:75%; background-color:green"></div>
   </div>
 </div>
 
@@ -378,8 +378,8 @@ element {
 
 <!-- Container (Portfolio Section) -->
 <div id="wastemanagement" class="w3-content w3-container w3-padding-64">
-  <h3 class="w3-center w3-container">Waste Management</h3>
-  <p class="w3-container w3-center">Reduce, Reuse, Recycle: Alternatives for 
+  <h3 class="w3-center w3-container slideanim">Waste Management</h3>
+  <p class="w3-container w3-center slideanim">Reduce, Reuse, Recycle: Alternatives for 
 Waste Management</p>
  </div>
  <br>
@@ -447,22 +447,22 @@ Waste Management</p>
 <!-- Container (Portfolio Section) -->
 <div style="background-color:#000;color:#fff!important;">
 <div id="topcountries" class="w3-content w3-container w3-padding-64">
-  <h3 class="w3-center w3-container">TOP 10 COUNTRIES</h3>
-  <p class="w3-container w3-center" style="background-color:#fff;color:#000!important"></p>
+  <h3 class="w3-center w3-container slideanim">TOP 10 COUNTRIES</h3>
+  <p class="w3-container w3-center slideanim" style="background-color:#fff;color:#000!important"></p>
  </div>
 <div class="row" style="background-color:#000;color:#fff!important">
   <div class="col-sm-3 col-xs-50" style="background-color:#000;color:#fff!important">
   <div class="wrapper">
-  <h2>PRODUCING MOST AMOUNT WASTE PER YEAR&nbsp; </h2>
+  <h2 class="slideanim">PRODUCING MOST AMOUNT WASTE PER YEAR &nbsp; </h2>
   <div id="chart">
-  <p class="face data-y"> 254 &nbsp; 207 &nbsp;52 &nbsp; &nbsp; 49 &nbsp; &nbsp; 35 &nbsp; &nbsp;32 &nbsp; &nbsp; 32 &nbsp; &nbsp; 30 &nbsp; &nbsp; 26 &nbsp; &nbsp; 26 </p>
+  <p class="face data-y slideanim"> 254 &nbsp; 207 &nbsp;52 &nbsp; &nbsp; 49 &nbsp; &nbsp; 35 &nbsp; &nbsp;32 &nbsp; &nbsp; 32 &nbsp; &nbsp; 30 &nbsp; &nbsp; 26 &nbsp; &nbsp; 26 </p>
   <br>
   <br>
   <br>
   </div>  
-  <p>US &nbsp; &nbsp; Russia &nbsp; &nbsp; Japan &nbsp; &nbsp; Germany &nbsp; &nbsp; UK &nbsp; &nbsp; Mexico &nbsp; &nbsp; France &nbsp; &nbsp; Italy &nbsp; &nbsp; &nbsp;&nbsp; Spain &nbsp; &nbsp; &nbsp; Turkey &nbsp;</p>
+  <p class="slideanim">US &nbsp; &nbsp; Russia &nbsp; &nbsp; Japan &nbsp; &nbsp; Germany &nbsp; &nbsp; UK &nbsp; &nbsp; Mexico &nbsp; &nbsp; France &nbsp; &nbsp; Italy &nbsp; &nbsp; &nbsp;&nbsp; Spain &nbsp; &nbsp; &nbsp; Turkey &nbsp;</p>
   <br>
-  <p> Million Tons/Year</p>
+  <p class="slideanim"> Million Tons/Year</p>
   <br>
   <br>
   <br>
@@ -471,7 +471,7 @@ Waste Management</p>
 </div>
   <div class="col-sm-9 col-xs-50">
   <div class="wrapper1 ">
-  <h2>&nbsp;MOST EFFICIENT WASTE MANAGEMENT COUNTRIES </h2>
+  <h2 class="slideanim">&nbsp;MOST EFFICIENT WASTE MANAGEMENT COUNTRIES </h2>
   <div id="chart1"></div>  
   <br>
   <br>
@@ -497,9 +497,9 @@ Waste Management</p>
 <!-- Container (Team Section) -->
 
 <div class="w3-container w3-padding-64 w3-center" id="footprint">
-<h2>FOOT PRINT</h2>
+<h2 class="slideanim">FOOT PRINT</h2>
 <br>
-<p> Ecological Footprint and biocapacity</p>
+<p class="slideanim"> Ecological Footprint and biocapacity</p>
 <br>
 <div class="w3-row"><br>
 
@@ -1209,9 +1209,9 @@ Waste Management</p>
 <!-- Container (Team Section) -->
 
 <div class="w3-container w3-padding-64 w3-center" id="team" style="background-color:green;color:#fff !important">
-<h2>OUR TEAM</h2>
+<h2 class="slideanim">OUR TEAM</h2>
 <br>
-<p>Meet the team - our office rats:</p>
+<p class="slideanim">Meet the team - our office rats:</p>
 <br>
 <div class="w3-row"><br>
 
@@ -1263,8 +1263,8 @@ Waste Management</p>
       <p>{{ Session::get('success') }}</p>
     </div>
   @endif
-  <h3 class="w3-center">WHERE WE WORK</h3>
-  <p class="w3-center"><em>We'd love your feedback!</em></p>
+  <h3 class="w3-center slideanim">WHERE WE WORK</h3>
+  <p class="w3-center slideanim"><em>We'd love your feedback!</em></p>
 
   <div  class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
@@ -1304,11 +1304,17 @@ Waste Management</p>
             </p>
           </div>
         @endif
+         
 </div>
 </div>
 </div>
+<div class="slideanim" style="color:#000; text-align:right; font-size:30px">
+ <a href="#" class="w3-hover-text-red" title="To Top"><i class="fa fa-hand-o-up" aria-hidden="true"></i></a>
+ </div>
+ <div class="slideanim" style="color:#000; text-align:right">
+<p>MOVE UP</p>
 </div>
-
+</div>
 
 
 

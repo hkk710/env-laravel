@@ -414,12 +414,12 @@ Waste Management</p>
       <div class="caption" style="color:#fff !important">
         <h3>Biomedical Waste</h3>
         <p>Definition. According to Biomedical Waste (Management and Handling) Rules, 1998 of India “Any waste which is generated during the diagnosis, treatment or immunization of human beings or animals or in research activities pertaining thereto or in the production or testing of biologicals.</p>
-        <a href="{{url('/biomedical')}}"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
+        <a href="/images/BIOMEDICAL WASTE.pdf"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
        <br>
        <br>
       </div>
     </div>
-  </div>
+  </div>  
   <div class="col-sm-3 col-xs-12">
     <div class="panel panel-default text-center thumbnail slideanim" style="background-color:green">
       <img src="{{asset('images/i.JPG')}}" alt="...">

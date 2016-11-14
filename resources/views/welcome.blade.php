@@ -879,100 +879,100 @@ Waste Management</p>
                         <li>3 United States of America 8.2 </li>
                         <li>4 Canada 8.2</li>
                         <li>5 Singapore 8</li>
-                        6Trinidad and Tobago7.9
-                        7Oman7.5
-                        8Belgium7.4
-                        9Sweden7.3
-                        10Estonia6.9
-                        11Latvia6.3
-                        12Israel6.2
-                        13Mongolia6.1
-                        14Austria6.1
-                        15Finland5.9
-                        16Lithuania5.8
-                        17Slovenia5.8
-                        18Switzerland5.8
-                        19Korea, Republic of5.7
-                        20Russian Federation5.7
-                        21New Zealand5.6
-                        22Ireland5.6
-                        23Denmark5.5
-                        24Turkmenistan5.5
-                        25Germany5.3
-                        26Netherlands5.3
-                        27Czech Republic5.2
-                        28France5.1
-                        29Belarus5.1
-                        30Japan5
-                        31Norway5
-                        32United Kingdom4.9
-                        33Bhutan4.8
-                        34Italy4.6
-                        35Poland4.4
-                        36Greece4.4
-                        37Chile4.4
-                        38Cyprus4.2
-                        39Paraguay4.2
-                        40Slovakia4.1
-                        41Croatia3.9
-                        42Portugal3.9
-                        43Lebanon3.8
-                        44Botswana3.8
-                        45Montenegro3.8
-                        46Malaysia3.7
-                        47Libyan Arab Jamahiriya3.7
-                        48Spain3.7
-                        49Réunion3.7
-                        50Venezuela, Bolivarian Republic of3.6
-                        51Mauritius3.5
-                        52China3.4
-                        53Turkey3.3
-                        54Bulgaria3.3
-                        55South Africa3.3
-                        56Macedonia TFYR3.3
-                        57Argentina3.1
-                        58Bosnia and Herzegovina3.1
-                        59Brazil3.1
-                        60Guyana3.1
-                        61Bolivia3
-                        62Hungary2.9
-                        63Uruguay2.9
-                        64Fiji2.9
-                        65Mexico2.9
-                        66Costa Rica2.8
-                        67Ukraine2.8
-                        68Iran, Islamic Republic of2.8
-                        69Panama2.8
-                        70Romania2.7
-                        71Serbia2.7
-                        72Thailand2.7
-                        73Mauritania2.5
-                        74Tunisia2.3
-                        75Uzbekistan2.3
-                        76Azerbaijan2.3
-                        77Peru2.3
-                        78Armenia2.2
-                        79Albania2.2
-                        80Ecuador2.2
-                        81Egypt2.2
-                        82Algeria2.1
-                        83Jordan2.1
-                        84El Salvador2.1
-                        85Ghana2
-                        86Cuba2
-                        87Kyrgyzstan1.9
-                        88Papua New Guinea1.9
-                        89Jamaica1.9
-                        90Guatemala1.9
-                        91Iraq1.9
-                        92Colombia1.9
-                        93Moldova1.8
-                        94Morocco1.7
-                        95Honduras1.7
-                        96Lesotho1.7
-                        97Viet Nam1.7
-                        98Georgia1.6
-                        99Indonesia1.6
+                        <li>6 Trinidad and Tobago 7.9</li>
+                        <li>7 Oman 7.5</li>
+                        <li>8 Belgium 7.4</li>
+                        <li>9 Sweden 7.3</li>
+                        <li>10 Estonia 6.9</li>
+                        <li>11 Latvia 6.3</li>
+                        <li>12 Israel 6.2</li>
+                        <li>13 Mongolia 6.1</li>
+                        <li>14 Austria 6.1</li>
+                        <li>15 Finland 5.9</li>
+                        <li>16 Lithuania 5.8</li>
+                        <li>17 Slovenia 5.8</li>
+                        <li>18 Switzerland 5.8</li>
+                        <li>19 Korea, Republic of 5.7</li>
+                        <li>20 Russian Federation 5.7</li>
+                        <li>21 New Zealand 5.6</li>
+                        <li>22 Ireland 5.6</li>
+                        <li>23 Denmark 5.5</li>
+                        <li>24 Turkmenistan 5.5</li>
+                        <li>25 Germany 5.3</li>
+                        <li>26 Netherlands 5.3</li>
+                        <li>27 Czech Republic 5.2</li>
+                        <li>28 France 5.1</li>
+                        <li>29 Belarus 5.1</li>
+                        <li>30 Japan 5</li>
+                        <li>31 Norway 5</li>
+                        <li>32 United Kingdom 4.9</li>
+                        <li>33 Bhutan 4.8</li>
+                        <li>34 Italy 4.6</li>
+                        <li>35 Poland 4.4</li>
+                        <li>36 Greece 4.4</li>
+                        <li>37 Chile 4.4</li>
+                        <li>38 Cyprus 4.2</li>
+                        <li>39 Paraguay 4.2</li>
+                        <li>40 Slovakia 4.1</li>
+                        <li>41 Croatia 3.9</li>
+                        <li>42 Portugal 3.9</li>
+                        <li>43 Lebanon 3.8</li>
+                        <li>44 Botswana 3.8</li>
+                        <li>45 Montenegro 3.8</li>
+                        <li>46 Malaysia 3.7</li>
+                        <li>47 Libyan Arab Jamahiriya 3.7</li>
+                        <li>48 Spain 3.7</li>
+                        <li>49 Réunion 3.7</li>
+                        <li>50 Venezuela, Bolivarian Republic of 3.6</li>
+                        <li>51 Mauritius 3.5</li>
+                        <li>52 China 3.4</li>
+                        <li>53 Turkey 3.3</li>
+                        <li>54 Bulgaria 3.3</li>
+                        <li>55 South Africa 3.3</li>
+                        <li>56 Macedonia TFYR 3.3</li>
+                        <li>57 Argentina 3.1</li>
+                        <li>58 Bosnia and Herzegovina 3.1</li>
+                        <li>59 Brazil 3.1</li>
+                        <li>60 Guyana 3.1</li>
+                        <li>61 Bolivia 3</li>
+                        <li>62 Hungary 2.9</li>
+                        <li>63 Uruguay 2.9</li>
+                        <li>64 Fiji 2.9</li>
+                        <li>65 Mexico 2.9</li>
+                        <li>66 Costa Rica 2.8</li>
+                        <li>67 Ukraine 2.8</li>
+                        <li>68 Iran, Islamic Republic of 2.8</li>
+                        <li>69 Panama 2.8</li>
+                        <li>70 Romania 2.7</li>
+                        <li>71 Serbia 2.7</li>
+                        <li>72 Thailand 2.7</li>
+                        <li>73 Mauritania 2.5</li>
+                        <li>74 Tunisia 2.3</li>
+                        <li>75 Uzbekistan 2.3</li>
+                        <li>76 Azerbaijan 2.3</li>
+                        <li>77 Peru 2.3</li>
+                        <li>78 Armenia 2.2</li>
+                        <li>79 Albania 2.2</li>
+                        <li>80 Ecuador 2.2</li>
+                        <li>81 Egypt 2.2</li>
+                        <li>82 Algeria 2.1</li>
+                        <li>83 Jordan 2.1</li>
+                        <li>84 El Salvador 2.1</li>
+                        <li>85 Ghana 2</li>
+                        <li>86 Cuba 2</li>
+                        <li>87 Kyrgyzstan 1.9</li>
+                        <li>88 Papua New Guinea 1.9</li>
+                        <li>89 Jamaica 1.9</li>
+                        <li>90 Guatemala 1.9</li>
+                        <li>91 Iraq 1.9</li>
+                        <li>92 Colombia 1.9</li>
+                        <li>93 Moldova 1.8</li>
+                        <li>94 Morocco 1.7</li>
+                        <li>95 Honduras 1.7</li>
+                        <li>96 Lesotho 1.7</li>
+                        <li>97 Viet Nam 1.7</li>
+                        <li>98 Georgia 1.6</li>
+                        <li>99 Indonesia 1.6</li>
                         <li>100 Niger 1.6</li>
                         <li>101 Dominican Republic 1.5</li>
                         <li>102 Mali 1.5</li>

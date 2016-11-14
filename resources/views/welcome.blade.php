@@ -294,11 +294,13 @@ element {
 <body>
 
 <!-- Navbar (sit on top) -->
+
+
 <div class="w3-top" data-spy="scroll" style="color:#fff !important">
   <ul class="w3-navbar w3-card-2 w3-animate-top w3-green" id="myNavbar">
     <li><a href="#">HOME</a></li>
     <li class="w3-hide-small w3-right">
-    <nav class="collapse navbar-collapse navbar-right" role="navigation">
+    <nav class="collapse navbar-collapse navbar-right " role="navigation">
                         <li><a href="#typesofwastes">Types of Waste</a></li>
                         <li><a href="#wastemanagement">Waste Management </a></li>
                         <li><a href="#topcountries">Top Countries </a></li>
@@ -310,9 +312,9 @@ element {
                    <li> <a href="{{ url('/register') }}">Register</a></li>
                     @endif
                     </nav>
+                    </li>
   </ul>
 </div>
-
 <!-- First Parallax Image with Logo Text -->
 
 <div class="bgimg-1 w3-display-container">
@@ -402,7 +404,7 @@ Waste Management</p>
       <div class="caption" style="color:#fff !important">
         <h3>Industrial waste</h3>
         <p>Industrial waste is the waste produced by industrial activity which includes any material that is rendered useless during a manufacturing process such as that of factories, industries, mills, and mining operations. It has existed since the start of the Industrial <Revolution class=""></Revolution></p>
-         <a href="{{url('/industrial')}}"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
+         <a href="/images/INDUSTRAIL WASTE.pdf"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
         <br>
         <br>
       </div>

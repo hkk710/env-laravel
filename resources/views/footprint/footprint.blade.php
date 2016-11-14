@@ -45,7 +45,7 @@ element {
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="{{ asset('js/parsley.min.js') }}"></script>
 
-
+<div style="background-color:green;color:#fff!important">
 <div class="w3-container w3-padding-64 w3-center" id="footprint">
 <h2 class="slideanim">FOOT PRINT</h2>
 <br>

@@ -316,7 +316,9 @@ element {
 </div>
 
 <!-- Container (About Section) -->
-<div id="typesofwastes" class="w3-content w3-container w3-padding-64">
+<div style=" opacity: 0.7;background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; width: auto; background-image:url('images/sky.jpg')">
+
+<div id="typesofwastes" class="w3-content w3-container w3-padding-64" style="color:#000">
   <h3 class="w3-center slideanim">OUR PROJECT</h3>
   <p class="w3-center slideanim"><em>Waste Management</em></p>
   <p class="slideanim">There are many issues that surround reporting waste. It is most commonly measured by size or weight, and there is a stark difference between the two. For example, organic waste is much heavier when it is wet, and plastic or glass bottles can have different weights but be the same size. On a global scale it is difficult to report waste because countries have different definitions of waste and what falls into waste categories, as well as different ways of reporting. Based on incomplete reports from its parties, the Basel Convention estimated 338 million tonnes of waste was generated in 2001. For the same year, OECD estimated 4 billion tonnes from its member countries. Despite these inconsistencies, waste reporting is still useful on a small and large scale to determine key causes and locations, and to find ways of preventing, minimizing, recovering, treating, and disposing waste.</p>
@@ -342,6 +344,7 @@ element {
   <div class="w3-progress-container slideanim">
     <div class="w3-progressbar slideanim" style="width:75%; background-color:green"></div>
   </div>
+</div>
 </div>
 
 <div class="w3-row w3-center w3-padding-16" style="background-color:green;color:white !important">
@@ -369,9 +372,9 @@ element {
   </div>
 </div>
 
-
 <!-- Container (Portfolio Section) -->
-<div id="wastemanagement" class="w3-content w3-container w3-padding-64">
+<div <div style=" opacity: 1.0;background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; width: auto; background-image:url('images/wm1.jpg')">
+<div id="wastemanagement" class="w3-content w3-container w3-padding-64" style="color:#fff!important">
   <h3 class="w3-center w3-container slideanim">Waste Management</h3>
   <p class="w3-container w3-center slideanim">Reduce, Reuse, Recycle: Alternatives for 
 Waste Management</p>
@@ -427,8 +430,7 @@ Waste Management</p>
     </div>
   </div>
 </div>
-
-<!-- remove if any problem in bar chart-->
+</div>
 
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-6 w3-display-container">
@@ -498,7 +500,7 @@ Waste Management</p>
 
 <!-- Container (Team Section) -->
 
-<div class="w3-container w3-padding-64 w3-center" id="team" style="background-color:green;color:#fff !important">
+<div class="w3-container w3-padding-64 w3-center" id="team" style="background-color:#000;color:#fff !important">
 <h2 class="slideanim">OUR TEAM</h2>
 <br>
 <p class="slideanim">Meet the team - our office rats:</p>
@@ -543,7 +545,7 @@ Waste Management</p>
 </div>
 
 <!-- Container (Contact Section) -->
-<div style="background-color:">
+<div style=" opacity: 1.0;background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; width: auto; background-image:url('images/sky.jpg')">
 <div id="contact" class="w3-content w3-container w3-padding-64">
   @if (Session::has('success'))
     <div class="w3-panel w3-green">
@@ -605,7 +607,7 @@ Waste Management</p>
 </div>
 
 
-
+</div>
 <!-- Footer -->
 <footer class="w3-center  w3-padding-16 w3-opacity w3-hover-opacity-off" style="background-color:green;color:white !important">
   <div class="w3-xlarge ">

@@ -115,46 +115,6 @@ body, html {
 }
 
 
-#chart1{
-  position:relative;
-  margin-top:40px;
-  width:500px;
-  height:200px;
-}
-@-webkit-keyframes bargrowth{
-  0%   {max-height: 0%;}
-  100%  {max-height: 100%;}
-}
-@keyframes bargrowth{
-  0%   {max-height: 0%;}
-  100%  {max-height: 100%;}
-}
-.bar1{
-  -webkit-animation: bargrowth 9000ms ease;
-  animation: bargrowth 9000ms ease;
-  position:absolute;
-  bottom:0;
-  display:inline-block;
-  background: #89b800;
-  box-shadow: 1px -1px #79a300, 2px -2px #79a300, 3px -3px #79a300,   4px -4px #79a300, 5px -5px #79a300, 6px -6px #79a300, 7px -7px   #79a300, 8px -8px #79a300, 9px -9px #79a300, 10px -10px #79a300;
-}
-
-
-.wrapper1{
-  text-align:center;
-  margin:0 auto;
-  margin-top:30px;
-  width:500px;
-  font-family:Helvetica;
-  font-size:12px;
-}
-.wrapper1 > h1, .wrapper1 > p{
-  margin:0;
-}
-
-
-
-
 .face {
     position: absolute;
 }
@@ -387,7 +347,7 @@ Waste Management</p>
       <div class="caption" style="color:#fff !important">
         <h3>Municipal waste</h3>
         <p>Municipal Solid Waste (MSW) -- more commonly known as trash or garbage — consists of everyday items we use and then throw away, such as product packaging, grass clippings, furniture, clothing, bottles, food scraps, newspapers, appliances, paint, and batteries.</p>
-        <a href="{{url('/municipal')}}"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
+        <a href="/images/MW.pdf"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
         <br>
         <br>
       </div>
@@ -399,7 +359,7 @@ Waste Management</p>
       <div class="caption" style="color:#fff !important">
         <h3>Industrial waste</h3>
         <p>Industrial waste is the waste produced by industrial activity which includes any material that is rendered useless during a manufacturing process such as that of factories, industries, mills, and mining operations. It has existed since the start of the Industrial <Revolution class=""></Revolution></p>
-         <a href="/images/INDUSTRAIL WASTE.pdf"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
+         <a href="/images/IW.pdf"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
         <br>
         <br>
       </div>
@@ -411,7 +371,7 @@ Waste Management</p>
       <div class="caption" style="color:#fff !important">
         <h3>Biomedical Waste</h3>
         <p>Definition. According to Biomedical Waste (Management and Handling) Rules, 1998 of India “Any waste which is generated during the diagnosis, treatment or immunization of human beings or animals or in research activities pertaining thereto or in the production or testing of biologicals.</p>
-        <a href="/images/BIOMEDICAL WASTE.pdf"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
+        <a href="/images/BW.pdf"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
        <br>
        <br>
       </div>
@@ -423,7 +383,7 @@ Waste Management</p>
       <div class="caption" style="color:#fff !important">
         <h3>Electronic waste</h3>
         <p>Electronic waste is a term for electronic products that have become unwanted, non-working or obsolete, and have essentially reached the end of their useful life. Because technology advances at such a high rate, many electronic devices become “trash” after a few short years of use.</p>
-           <a href="/images/E-WASTE.pptx"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
+           <a href="/images/EW.pdf"  class="w3-btn w3-section w3-right button" style="vertical-align:middle" type="submit" value="SEND MESSAGE" ><span>KNOW MORE </span></a>
           <br>
           <br>
       </div>
@@ -447,16 +407,17 @@ Waste Management</p>
   <p class="w3-container w3-center slideanim" style="background-color:#fff;color:#000!important"></p>
  </div>
 <div class="row" style="background-color:#000;color:#fff!important">
-  <div class="col-sm-3 col-xs-50" style="background-color:#000;color:#fff!important">
+  <div class="col-sm-11 col-xs-70" style="background-color:#000;color:#fff!important">
   <div class="wrapper">
   <h2 class="slideanim">PRODUCING MOST AMOUNT WASTE PER YEAR &nbsp; </h2>
   <div id="chart">
-  <p class="face data-y slideanim"> 254 &nbsp; 207 &nbsp;52 &nbsp; &nbsp; 49 &nbsp; &nbsp; 35 &nbsp; &nbsp;32 &nbsp; &nbsp; 32 &nbsp; &nbsp; 30 &nbsp; &nbsp; 26 &nbsp; &nbsp; 26 </p>
   <br>
   <br>
   <br>
   </div>  
   <p class="slideanim">US &nbsp; &nbsp; Russia &nbsp; &nbsp; Japan &nbsp; &nbsp; Germany &nbsp; &nbsp; UK &nbsp; &nbsp; Mexico &nbsp; &nbsp; France &nbsp; &nbsp; Italy &nbsp; &nbsp; &nbsp;&nbsp; Spain &nbsp; &nbsp; &nbsp; Turkey &nbsp;</p>
+  <p class="face data-y slideanim"> 254 &nbsp; 207 &nbsp;52 &nbsp; &nbsp; 49 &nbsp; &nbsp; 35 &nbsp; &nbsp;32 &nbsp; &nbsp; 32 &nbsp; &nbsp; 30 &nbsp; &nbsp; 26 &nbsp; &nbsp; 26 </p>
+  <br>
   <br>
   <p class="slideanim"> Million Tons/Year</p>
   <br>
@@ -465,16 +426,10 @@ Waste Management</p>
   <br>
 </div>
 </div>
-  <div class="col-sm-9 col-xs-50">
-  <div class="wrapper1 ">
-  <h2 class="slideanim">&nbsp;MOST EFFICIENT WASTE MANAGEMENT COUNTRIES </h2>
-  <div id="chart1"></div>  
   <br>
   <br>
   <br>
   <br>
-</div>
-  </div>
 </div>
 </div>
 
@@ -688,26 +643,6 @@ function drawChart(data,selector,padding){
   }
 }
 
-var values1 = [1000,10000,600,100,200,500,400,800,300,120];
-
-drawChart(values1,"#chart1",10) // You can adjust the margin between each bar by changing 10 to whatever you like
-
-function drawChart1(data,selector,padding){
-  var max1 = Math.max.apply(Math, data);
-  var chart1 = document.querySelector(selector);
-  var barwidth1 = ((chart.offsetWidth-(values.length-1)*padding-(data.length)*10)/data.length);
-  var sum1 = data.reduce(function(pv, cv) { return pv + cv; }, 0);
-  var left1 = 0;
-  for (var i in data){
-    var newbar1 = document.createElement('div');
-    newbar1.setAttribute("class", "bar1");
-    newbar1.style.width=barwidth+"px";
-    newbar1.style.height=((data[i]/max)*100)+"%";
-    newbar1.style.left=left+"px";
-    chart1.appendChild(newbar1);
-    left1 += (barwidth+padding+10);
-  }
-}
 //upto here
 
 

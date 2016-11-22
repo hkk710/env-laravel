@@ -91,6 +91,7 @@ body, html {
   0%   {max-height: 0%;}
   100%  {max-height: 100%;}
 }
+
 .bar{
   -webkit-animation: bargrowth 9000ms ease;
   animation: bargrowth 9000ms ease;
